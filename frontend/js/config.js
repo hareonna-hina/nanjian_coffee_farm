@@ -7,8 +7,8 @@
   window.CoffeeGame.config={
     designWidth:375,
     designHeight:700,
-    supabaseUrl:"",
-    supabasePublishableKey:"",
+    supabaseUrl:"https://vviexdnhrvpkybvpzhte.supabase.co",
+    supabasePublishableKey:"sb_publishable_xH1GwVIe1jsLaA8Lj-jwtQ_oA3AGTib",
     storagePrefix:"nanjian-coffee-v1",
     initialGold:30000,
     optionCostMultiplier:20,
@@ -16,3 +16,4 @@
     debtRepaymentMultiplier:1.2
   };
 })();
+
