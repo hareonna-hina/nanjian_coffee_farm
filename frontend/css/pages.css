@@ -72,11 +72,11 @@
 .round-deltas span:nth-child(4){position:relative;left:-4px;top:0}
 .round-deltas span:nth-child(5){position:relative;left:-3px;top:0}
 
-.event-card{position:relative;width:353px;height:594px;background:url('../assets/images/ui/emergency_background.png') center/100% 100% no-repeat;padding:80px 28px 24px}.event-image{width:294px;height:154px;object-fit:cover;border-radius:11px;position: relative;top:10px;}.event-copy{height:92px;padding:10px 14px;overflow:auto;position: relative;top:20px}.event-copy h2{font-size:16px}.event-copy p{margin-top:5px;font-size:10px;line-height:1.45}.event-options{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;height:171px;position: relative;top:30px}.event-option{padding:12px 7px 7px;border-radius:12px;text-align:left}.event-option h3{font-size:11px;line-height:1.3}.event-option p{margin-top:7px;font-size:8px;line-height:1.35;color:#5f5a48}.event-option strong{display:block;margin-top:9px;padding-top:6px;border-top:1px solid #d5c7aa;font:700 5px/1.4 var(--sans)}
+.event-card{position:relative;width:353px;height:594px;background:url('../assets/images/ui/emergency_background.png') center/100% 100% no-repeat;padding:80px 28px 24px}.event-image{width:294px;height:154px;object-fit:cover;border-radius:11px;position: relative;top:10px;}.event-copy{height:92px;padding:10px 14px;overflow:auto;position: relative;top:20px}.event-copy h2{font-size:16px}.event-copy p{margin-top:5px;font-size:12px;line-height:1.45}.event-options{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;height:171px;position: relative;top:30px}.event-option{padding:5px 7px 7px;border-radius:12px;text-align:left}.event-option h3{font-size:14px;line-height:1.3}.event-option p{margin-top:7px;font-size:12px;line-height:1.35;color:#5f5a48}.event-option strong{display:block;margin-top:9px;padding-top:6px;border-top:1px solid #d5c7aa;font:700 5px/1.4 var(--sans)}
 /* 只固定每个选项底部“资金/活力/纯净”等结果说明的文字比例。 */
 .event-option strong{
   font-family:var(--sans);
-  font-size:4px!important;
+  font-size:9px!important;
   font-weight:700;
   line-height:1.4;
   -webkit-text-size-adjust:none;
@@ -85,7 +85,42 @@
 
 .tags-card{width:353px;height:594px;background:url('../assets/images/ui/label_background_complex.png') center/100% 100% no-repeat;padding:90px 38px 30px}.tags-list{height:160px;overflow-y:auto;display:grid;align-content:start;grid-auto-rows:min-content;gap:6px}.tag-row{display:flex;align-items:center;justify-content:space-between;gap:6px;width:100%;min-height:34px;padding:6px 9px;border:1px solid #c4ad7f;border-radius:10px;background:rgba(255,250,235,.62);text-align:left;font-size:11px}.tag-row.is-active{outline:2px solid #78924e;background:rgba(225,235,195,.72)}.tag-row span:last-child{display:flex;gap:4px}.tag-detail{height:215px;margin-top:42px;overflow-y:auto;padding:10px 12px;border:1px solid rgba(185,157,104,.5);border-radius:12px;font-size:10px;line-height:1.55}.tag-detail h3{font-size:14px;margin-bottom:7px}.tag-empty{display:grid;place-items:center;height:100%;color:#8b826c;text-align:center}
 
-.leaderboard-card{width:343px;height:610px;background:url('../assets/images/ui/ranking_borad.jpg') center/100% 100% no-repeat;padding:135px 10px 30px 95px}.leaderboard-list{height:340px;overflow-y:auto}.leaderboard-row{display:grid;grid-template-columns:32px 1fr 68px 37px;gap:3px;align-items:center;min-height:39px;border-bottom:1px dotted #bfae8a;font:700 5px/1.2 var(--sans);white-space: nowrap;}.leaderboard-row strong{font-size:11px}.leaderboard-row.is-me{background:rgba(221,231,190,.62)}.my-rank{margin-top:18px;padding:0;border:none;border-radius:0;background:transparent;font:700 1px/1.4 var(--sans);position:relative; top:8px;left:32px}
+.leaderboard-card{width:343px;height:610px;background:url('../assets/images/ui/ranking_borad.jpg') center/100% 100% no-repeat;padding:135px 10px 30px 95px}.leaderboard-list{height:340px;overflow-y:auto}.leaderboard-row{display:grid;grid-template-columns:32px 1fr 68px 37px;gap:3px;align-items:center;min-height:39px;border-bottom:1px dotted #bfae8a;font:700 10px/1.2 var(--sans);white-space: nowrap;}.leaderboard-row strong{font-size:11px}.leaderboard-row.is-me{background:rgba(221,231,190,.62)}.my-rank{margin-top:18px;padding:0;border:none;border-radius:0;background:transparent;font:700 1px/1.4 var(--sans);position:relative; top:8px;left:32px}
+.my-rank{left:0;font:inherit}.my-rank .leaderboard-row.is-me{background:transparent}.my-rank-note{display:block;margin-top:6px;text-align:center;font:700 7px/1.4 var(--sans);color:#756d58}.my-rank-empty{min-height:39px;display:grid;place-items:center;font:700 10px/1.2 var(--sans)}
+
+/* 排行榜与“我的排名”共用以下四项字号和位置，保证每列始终对齐。 */
+.leaderboard-list .leaderboard-row > strong,
+.my-rank .leaderboard-row > strong{
+  position:relative;
+  top:0;
+  left:6px;
+  font-size:11px;
+}
+.leaderboard-list .leaderboard-row > span:nth-child(2),
+.my-rank .leaderboard-row > span:nth-child(2){
+  position:relative;
+  top:0;
+  left:15px;
+  font-size:10px;
+}
+.leaderboard-list .leaderboard-row > span:nth-child(2) small,
+.my-rank .leaderboard-row > span:nth-child(2) small{
+  font-size:7px!important;
+}
+.leaderboard-list .leaderboard-row > b:nth-child(3),
+.my-rank .leaderboard-row > b:nth-child(3){
+  position:relative;
+  top:0;
+  left:0;
+  font-size:10px;
+}
+.leaderboard-list .leaderboard-row > span:nth-child(4),
+.my-rank .leaderboard-row > span:nth-child(4){
+  position:relative;
+  top:0;
+  left:0;
+  font-size:10px;
+}
 
 .settlement-full{position:absolute;inset:0;background:rgba(23,27,18,.72);display:grid;place-items:center}.settlement-card{position:relative;width:357px;height:634px;background-position:center;background-size:contain;background-repeat:no-repeat}.settlement-card .primary-button{position:absolute;left:94px;bottom:33px;width:170px;height:42px;font-size:17px}.cup-card{background-image:url('../assets/images/ui/cuptest_card_background.png')}.cup-flavor{position:absolute;top:236px;left:72px;width:215px;text-align:center;font-size:15px;line-height:1.25}.cup-score{position:absolute;top:330px;left:77px;width:207px;text-align:center;font:700 46px/1 var(--serif)}.cup-score small{font-size:15px}.cup-grade{position:absolute;top:440px;left:62px;width:233px;text-align:center;font-size:23px;color:#866019}
 .trade-card{background-image:url('../assets/images/ui/trading_card_background.png')}.trade-buyer{position:absolute;top:245px;left:177px;width:166px;font-size:11px}.trade-comment{position:absolute;top:280px;left:171px;width:153px;font-size:9px;line-height:1.35}.trade-field{position:absolute;width:50px;text-align:center;font:700 12px/1 var(--sans)}.trade-final-yield{top:368px;left:113px}.trade-unit{top:404px;left:105px}.trade-revenue{top:439px;left:111px}.trade-score{top:367px;left:274px}.trade-eco{top:438px;left:276px}.trade-profit{position:absolute;top:542px;left:112px;width:150px;text-align:center;font:700 22px/1 var(--serif)}.trade-card .primary-button{bottom:10px;height:38px}
