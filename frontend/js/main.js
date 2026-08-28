@@ -5,8 +5,8 @@
 (function(CG){
   const store=CG.stateStore;
 
-  /** 完成终局结算、保存历史成绩并打开结算卡链；重开时清除旧进度。 */
-  function finishGame(){const result=CG.engine.finish();CG.runs.submit(store.current);CG.ui.renderStatus();CG.ui.showSettlement(result,()=>{CG.ui.closeModal();store.clear();startNew()})}
+  /** 完成终局结算、等待本地/远端成绩保存并打开结算卡链；重开时清除旧进度。 */
+  async function finishGame(){const result=CG.engine.finish();CG.ui.renderStatus();try{await CG.runs.submit(store.current)}catch(_error){CG.ui.toast("成绩已保存在本机，远端同步失败")};CG.ui.showSettlement(result,()=>{CG.ui.closeModal();store.clear();startNew()})}
 
   /** 推进状态中的轮次并重绘下一阶段经营页。 */
   function advanceRound(){CG.engine.advance();CG.ui.renderGame()}
@@ -26,8 +26,8 @@
   /** 接收决策卡索引并调用规则引擎；成功时展示该选项的故事结算。 */
   function chooseRound(index){const result=CG.engine.chooseRound(index);if(!result)return;if(result.failed){finishGame();return}CG.ui.showStory(result,afterMainStory)}
 
-  /** 创建全新状态并直接进入 R1。 */
-  function startNew(){store.create();CG.ui.renderGame()}
+  /** 创建全新状态；在线时先取得服务端 run_id/seed，再进入 R1。 */
+  async function startNew(){const state=store.create();try{await CG.runs.createRemote(state)}catch(_error){CG.ui.toast("远端开局失败，本局将保存在本机")};CG.ui.renderGame()}
 
   /**
    * 根据 pending 恢复刷新前的故事/平静/免疫/事件弹窗。
@@ -35,8 +35,8 @@
    */
   function resumePending(){const p=store.current.pending;if(!p)return false;if(p.kind==="story"){const round=CG.rounds.find(r=>r.id===p.roundId),option=round&&round.options.find(o=>o.key===p.optionKey);if(round&&option){CG.ui.showStory(Object.assign({round,option},p),afterMainStory);return true}}if(p.kind==="calm"){CG.ui.showCalm(advanceRound);return true}const event=findEvent(p.eventId);if(p.kind==="immune"&&event){CG.ui.showImmune(event,advanceRound);return true}if(p.kind==="event"&&event){CG.ui.showEvent(event,index=>handleEvent(event,index));return true}return false}
 
-  /** 开始按钮处理器：存在有效未完成对局则续玩，否则新建一局。 */
-  function startOrResume(){const s=store.current;if(s.status==="ongoing"&&s.choices.length&&s.round<5){CG.ui.renderGame();if(!resumePending()&&s.choices.some(c=>c.round===CG.rounds[s.round].id))afterMainStory()}else startNew()}
+  /** 开始按钮处理器：存在有效未完成对局则续玩，否则等待服务端新建一局。 */
+  async function startOrResume(){const s=store.current;if(s.status==="ongoing"&&s.choices.length&&s.round<5){CG.ui.renderGame();if(!resumePending()&&s.choices.some(c=>c.round===CG.rounds[s.round].id))afterMainStory()}else await startNew()}
 
   // UI 只依赖这三个应用级动作，避免直接调用内部流程函数。
   CG.app={chooseRound,startNew,finishGame};

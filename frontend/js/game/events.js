@@ -56,7 +56,7 @@
         {title:"🎲 听天由命不处理",hint:"承担霉变与虫蛀继续扩散。",summary:"零成本<br/>多项下降",effects:{clarity:-12,yield:-80,potential:-4}}
       ]},
       {id:"crisis_labor_shortage",type:"crisis",weight:15,title:"彝乡秋茶采摘工期冲突",image:E+"accident_R3_conflict.png",story:"　茶山秋茶收购价上涨，村民纷纷转去采茶，庄园突然遭遇严重用工荒。",options:[
-        {title:"💰 溢价抢招熟练采摘工",hint:"提高工价，稳住熟练采摘队。",summary:"资金 -¥180<br/>风味 ↑",effects:{gold:-180,potential:4}},
+        {title:"💰 溢价抢招熟练采摘工",hint:"提高工价，稳住采摘队。",summary:"资金 -¥180<br/>风味 ↑",effects:{gold:-180,potential:4}},
         {title:"🤝 联合本寨亲友互助采",hint:"依靠乡邻换工完成采收。",summary:"资金 -¥60<br/>产量 ↓",effects:{gold:-60,yield:-50}},
         {title:"🚜 散工快速扫园通采",hint:"以速度换成熟度与精细度。",summary:"零成本<br/>纯净/风味 ↓",effects:{clarity:-10,potential:-4}}
       ]},
