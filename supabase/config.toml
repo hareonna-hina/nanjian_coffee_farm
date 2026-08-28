@@ -1,0 +1,24 @@
+# Supabase 本地开发配置：API、匿名认证以及三条 Edge Function 的 JWT 校验。
+project_id = "wuliangshan-coffee-game"
+
+# 本地 PostgREST / GraphQL 暴露范围。
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+
+# 网页开发服务器地址和匿名登录开关。
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:4173"
+enable_anonymous_sign_ins = true
+
+# 三个函数都要求调用方携带有效 JWT；函数内部还会再次获取用户。
+[functions.create-run]
+verify_jwt = true
+
+[functions.submit-run]
+verify_jwt = true
+
+[functions.update-profile]
+verify_jwt = true

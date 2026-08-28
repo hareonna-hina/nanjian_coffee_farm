@@ -1,0 +1,2 @@
+/* 企划最终要求不做动画：只保留按钮即时反馈和弹窗的无位移动作状态。 */
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}

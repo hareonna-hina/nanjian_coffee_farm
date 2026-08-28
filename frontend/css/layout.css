@@ -1,0 +1,27 @@
+/* 页面骨架：承载固定 375 × 700 游戏画布，不包含任何模拟手机装饰。 */
+body{
+  width:100vw;
+  min-height:100vh;
+  min-height:100dvh;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 18% 15%,rgba(151,175,116,.22),transparent 30%),
+    radial-gradient(circle at 82% 82%,rgba(173,128,74,.18),transparent 28%),
+    #e8dfcc;
+  color:var(--ink);
+  font-family:var(--serif);
+}
+/* 固定设计坐标系；实际显示尺寸由 viewport.js 按设备宽高等比缩放并居中。 */
+.app-stage{
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:375px;
+  height:700px;
+  overflow:hidden;
+  background:#f7edd7;
+  transform:translate(-50%,-50%);
+  transform-origin:center;
+}
+.screen{position:absolute;inset:0;display:none;background-position:center;background-size:cover;background-repeat:no-repeat}
+.screen.is-active{display:block}

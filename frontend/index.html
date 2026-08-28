@@ -1,0 +1,83 @@
+<!doctype html>
+<!-- 应用入口：定义 375 × 700 画布 DOM，并按依赖顺序加载无构建步骤的经典脚本。 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#24391d">
+  <meta name="description" content="南涧咖啡庄园——一杯咖啡的山谷经营之旅">
+  <title>南涧咖啡庄园</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <!-- 游戏直接占用 375 × 700 设计画布；不再包裹模拟手机边框。 -->
+  <main id="app" class="app-stage" aria-label="南涧咖啡庄园游戏">
+          <section id="start-screen" class="screen start-screen is-active" aria-label="开始页">
+            <button id="help-button" class="start-help icon-button" type="button" aria-label="查看帮助">
+              <span aria-hidden="true">?</span><small>帮助</small>
+            </button>
+            <button id="start-button" class="primary-button start-cta" type="button">开始经营</button>
+            <nav class="start-nav" aria-label="开始页功能">
+              <button type="button" data-open="knowledge"><span aria-hidden="true">📖</span><small>风土志</small></button>
+              <button type="button" data-open="leaderboard"><span aria-hidden="true">🏆</span><small>排行榜</small></button>
+              <button type="button" data-open="profile"><span aria-hidden="true">🎒</span><small>UID</small></button>
+            </nav>
+            <div id="player-chip" class="player-chip" aria-live="polite"></div>
+          </section>
+
+          <section id="game-screen" class="screen game-screen" aria-label="庄园经营页">
+            <div id="status-bar" class="status-values" aria-live="polite"></div>
+            <div class="stage-visual" aria-label="咖啡生命周期主视觉">
+              <img id="stage-image" alt="当前咖啡庄园阶段">
+            </div>
+            <nav class="side-tools" aria-label="局内功能">
+              <button type="button" data-open="leaderboard"><span>🏆</span><small>排行榜</small></button>
+              <button type="button" data-open="knowledge"><span>📖</span><small>风土志</small></button>
+              <button type="button" data-open="tags"><span>🏷️</span><small>标签</small><b id="tag-count">0</b></button>
+            </nav>
+            <section class="decision-panel" aria-label="当前经营决策">
+              <header class="round-heading">
+                <h1 id="round-title"></h1>
+                <p id="round-story"></p>
+              </header>
+              <div id="decision-list" class="decision-list"></div>
+            </section>
+          </section>
+
+          <div id="modal-root" class="modal-root" aria-live="polite"></div>
+          <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </main>
+
+  <!-- 脚本按“配置/规则 → 状态/引擎 → 数据适配 → 工具 → UI → 主入口”顺序加载。 -->
+  <script src="js/config.js"></script>
+  <script src="js/game/tags.js"></script>
+  <script src="js/game/rounds.js"></script>
+  <script src="js/game/events.js"></script>
+  <script src="js/game/state.js"></script>
+  <script src="js/game/settlement.js"></script>
+  <script src="js/game/engine.js"></script>
+  <script src="js/api/supabase.js"></script>
+  <script src="js/api/auth.js"></script>
+  <script src="js/api/profile.js"></script>
+  <script src="js/api/runs.js"></script>
+  <script src="js/api/leaderboard.js"></script>
+  <script src="js/utils/format.js"></script>
+  <script src="js/utils/random.js"></script>
+  <script src="js/utils/viewport.js"></script>
+  <script src="js/ui/statusBar.js"></script>
+  <script src="js/ui/decisionCards.js"></script>
+  <script src="js/ui/eventModal.js"></script>
+  <script src="js/ui/knowledgeModal.js"></script>
+  <script src="js/ui/tagsModal.js"></script>
+  <script src="js/ui/settlementModal.js"></script>
+  <script src="js/ui/leaderboardModal.js"></script>
+  <script src="js/ui/screens.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

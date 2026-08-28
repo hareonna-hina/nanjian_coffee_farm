@@ -1,0 +1,9 @@
+{
+  "name": "南涧咖啡庄园",
+  "short_name": "南涧咖啡",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8eed8",
+  "theme_color": "#304a23"
+}

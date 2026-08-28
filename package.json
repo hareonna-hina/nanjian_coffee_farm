@@ -1,0 +1,11 @@
+{
+  "name": "wuliangshan-coffee-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "南涧咖啡庄园移动端网页经营游戏",
+  "scripts": {
+    "serve": "python -m http.server 4173 --directory frontend",
+    "test": "node tests/game.test.js && node tests/assets.test.js",
+    "simulate": "node scripts/simulation.js 100000"
+  }
+}

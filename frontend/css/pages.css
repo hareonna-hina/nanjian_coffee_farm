@@ -1,0 +1,94 @@
+/* 页面级样式模块：开始页、经营主界面，以及每类业务弹窗的专属布局。 */
+/* 开始页：背景、主按钮、帮助入口、底部导航和玩家身份。 */
+.start-screen{background-image:url('../assets/images/start/startpage_background.png')}
+.start-help{position:absolute;top:28px;right:19px;width:43px;height:55px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#725735}
+.start-help span{font:bold 29px/1 var(--serif)}.start-help small{font:700 10px/1 var(--serif)}
+.start-cta{position:absolute;left:99px;top:458px;width:177px;height:51px;font-size:22px}
+.start-nav{position:absolute;left:107px;top:560px;display:flex;gap:14px}
+.start-nav button{width:45px;height:58px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+.start-nav span{font-size:23px}.start-nav small{font:700 10px/1 var(--serif);white-space:nowrap}
+.player-chip{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);max-width:260px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#586045;font:700 9px/1 var(--sans);text-shadow:0 1px rgba(255,255,255,.9)}
+
+/* 经营页：五项状态、阶段插画、侧边工具与三张决策卡。 */
+.game-screen{background-image:url('../assets/images/ui/mainpage_background.png')}
+.status-values{position:absolute;z-index:3;top:17px;left:22px;width:350px;height:59px;display:grid;grid-template-columns:repeat(5,1fr);padding-top:24px;text-align:center;pointer-events:none}
+.status-value{font:700 13px/1.15 var(--serif);white-space:nowrap}
+.status-value small{display:block;margin-top:2px;font:700 8px/1 var(--sans)}
+/* 顶部五项动态状态的独立微调入口：left 正数向右，top 正数向下。 */
+.status-value:nth-child(1){position:relative;left:0;top:0;font-size:13px}
+.status-value:nth-child(2){position:relative;left:15px;top:0;font-size:13px}
+.status-value:nth-child(3){position:relative;left:20px;top:0;font-size:13px}
+.status-value:nth-child(4){position:relative;left:22px;top:0;font-size:13px}
+.status-value:nth-child(5){position:relative;left:11px;top:1px;font-size:13px}
+/* 风味潜力与纯净度的圆点可独立于整项移动。 */
+.status-value:nth-child(4) .status-dots{position:relative;left:0;top:0}
+.status-value:nth-child(5) .status-dots{position:relative;left:0;top:0}
+/* 风味潜力与纯净度的档位文字可单独移动和缩放。 */
+.status-value:nth-child(4) small{position:relative;left:0;top:0;font-size:8px}
+.status-value:nth-child(5) small{position:relative;left:0;top:0;font-size:8px}
+.status-value.is-negative{color:#9f3829}
+.status-dots{display:flex;justify-content:center;gap:2px;margin-bottom:3px}.status-dots i{width:5px;height:5px;border:1px solid #39452c;border-radius:50%;background:transparent}.status-dots i.on{background:#3c492d}
+.stage-visual{position:absolute;z-index:1;left:18px;top:82px;width:329px;height:245px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.stage-visual::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 45%,rgba(250,241,218,.25) 68%,rgba(250,241,218,.92) 92%);pointer-events:none}
+.stage-visual img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;filter:saturate(.92) contrast(.95)}
+.side-tools{position:absolute;z-index:5;right:10px;top:89px;display:flex;flex-direction:column;gap:6px}
+.side-tools button{position:relative;width:43px;height:49px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#4b422e}
+.side-tools span{font-size:19px;line-height:1}.side-tools small{margin-top:3px;font:700 8px/1 var(--serif)}
+.side-tools b{position:absolute;top:-4px;right:-4px;min-width:15px;height:15px;padding:0 3px;border-radius:8px;background:#9f4a32;color:#fff;font:700 8px/15px var(--sans)}
+.decision-panel{--story-offset-y:17px;--content-offset-y:17px;position:absolute;z-index:2;left:12px;right:12px;top:336px;height:351px}
+.round-heading{text-align:center;height:70px;padding:4px 26px 0}.round-heading h1{font-size:17px;line-height:1.2;letter-spacing:.04em;position: relative;top:-4px}.round-heading p{margin-top:5px;font-size:10px;line-height:1.35;color:#4e4f3c}
+.round-heading p{position:relative;left:0;top:7px}
+.decision-list{position:relative;top:var(--content-offset-y)}
+.decision-list{display:grid;gap:5px}
+.decision-card{position:relative;width:100%;height:77px;display:grid;grid-template-columns:78px 1fr 63px;align-items:center;padding:7px;border-radius:15px;text-align:left}
+.decision-card::after{content:"";position:absolute;inset:0;border:1px solid rgba(145,119,76,.58);border-radius:15px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.35);pointer-events:none}
+.decision-card:hover{background:rgba(224,233,196,.32)}
+.decision-card img{width:70px;height:58px;border-radius:10px;object-fit:cover;filter:saturate(.88)}
+.decision-copy{align-self:stretch;padding:4px 5px;min-width:0}.decision-copy h2{font-size:12px;line-height:1.23;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.decision-copy p{margin-top:7px;font-size:9px;line-height:1.35;color:#50513c;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.decision-effects{display:flex;flex-direction:column;gap:4px;align-items:stretch}.decision-effects span{height:17px;border:1px solid rgba(160,132,86,.36);border-radius:6px;background:rgba(244,237,215,.76);font:700 8px/15px var(--sans);text-align:center;white-space:nowrap}
+.decision-effects .cost{color:#a3442e;background:rgba(247,225,205,.82)}
+
+.info-modal{
+  width:343px;
+  height:575px;
+  padding:132px 42px 24px;
+  border:none;
+  border-radius:0;
+  background:url('../assets/images/ui/help_page_background.png') center/100% 100% no-repeat;
+  box-shadow:none;
+}
+.knowledge-modal{background-image:url('../assets/images/ui/tips.png')}
+.info-modal .modal-close{top:31px;right:29px}
+.info-tabs{display:flex;gap:4px;overflow:hidden;padding:0 0 8px}
+.info-tabs button{flex:1 1 0;min-width:0;border:1px solid #ac8e5c;border-radius:8px;padding:6px 1px;background:rgba(255,250,235,.68);font-size:10px;white-space:nowrap}
+.info-tabs button.is-active{background:#68843d;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.4)}
+.info-body{height:395px;overflow-y:auto;border:none;border-radius:0;padding:18px 12px;background:transparent}
+.info-body h2{text-align:center;font-size:18px}.info-body h3{margin:14px 0 5px;font-size:13px}.info-body p,.info-body li{font-size:15px;line-height:1.75}.info-body ul{list-style:disc;padding-left:18px}.pager{text-align:center;margin-top:14px;font-size:13px}
+
+.profile-modal{padding:54px 30px 30px;text-align:center}.profile-modal h2{font-size:24px}.profile-modal label{display:block;margin-top:22px;font:700 11px/1 var(--sans);text-align:left}.profile-modal input{width:100%;margin-top:7px;padding:10px;border:1px solid #a98f62;border-radius:9px;background:#fffaf0;color:var(--ink)}.profile-uid{margin:18px 0;padding:14px;border-radius:12px;background:#ece3c9;font:700 18px/1 var(--sans);letter-spacing:.12em}.profile-modal .primary-button{width:170px;height:42px;font-size:15px}
+
+.story-card{position:relative;width:353px;height:592px;background:url('../assets/images/ui/summarizing_card_background.png') center/100% 100% no-repeat; background-size: contain;}.story-title{position:absolute;top:128px;left:32px;right:32px;text-align:center;font-size:15px}.story-text{position:absolute;top:155px;left:35px;right:35px;height:155px;overflow-y:auto;font-size:11px;line-height:1.7;text-align:justify}.round-deltas{position:absolute;top:265px;left:35px;right:35px;height:92px;display:grid;grid-template-columns:repeat(5,1fr);align-items:end;padding:0 3px 7px;text-align:center}.round-deltas span{font:700 10px/1.2 var(--sans)}.round-deltas small{display:block;margin-top:4px;font:700 9px/1.1 var(--serif)}.story-tag{position:absolute;top:384px;left:44px;right:44px;height:55px;overflow:auto;padding:4px 12px;border:none;border-radius:0;text-align:center;font-size:11px;line-height:1.5}.story-card .primary-button{position:absolute;left:99px;bottom:19px;width:155px;height:40px;font-size:16px}
+/* 本轮结算：风味与纯净数值的独立位置调整入口。 */
+.round-deltas span:nth-child(4){position:relative;left:-4px;top:0}
+.round-deltas span:nth-child(5){position:relative;left:-3px;top:0}
+
+.event-card{position:relative;width:353px;height:594px;background:url('../assets/images/ui/emergency_background.png') center/100% 100% no-repeat;padding:80px 28px 24px}.event-image{width:294px;height:154px;object-fit:cover;border-radius:11px;position: relative;top:10px;}.event-copy{height:92px;padding:10px 14px;overflow:auto;position: relative;top:20px}.event-copy h2{font-size:16px}.event-copy p{margin-top:5px;font-size:10px;line-height:1.45}.event-options{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;height:171px;position: relative;top:30px}.event-option{padding:12px 7px 7px;border-radius:12px;text-align:left}.event-option h3{font-size:11px;line-height:1.3}.event-option p{margin-top:7px;font-size:8px;line-height:1.35;color:#5f5a48}.event-option strong{display:block;margin-top:9px;padding-top:6px;border-top:1px solid #d5c7aa;font:700 5px/1.4 var(--sans)}
+/* 只固定每个选项底部“资金/活力/纯净”等结果说明的文字比例。 */
+.event-option strong{
+  font-family:var(--sans);
+  font-size:4px!important;
+  font-weight:700;
+  line-height:1.4;
+  -webkit-text-size-adjust:none;
+  text-size-adjust:none;
+}
+
+.tags-card{width:353px;height:594px;background:url('../assets/images/ui/label_background_complex.png') center/100% 100% no-repeat;padding:90px 38px 30px}.tags-list{height:160px;overflow-y:auto;display:grid;align-content:start;grid-auto-rows:min-content;gap:6px}.tag-row{display:flex;align-items:center;justify-content:space-between;gap:6px;width:100%;min-height:34px;padding:6px 9px;border:1px solid #c4ad7f;border-radius:10px;background:rgba(255,250,235,.62);text-align:left;font-size:11px}.tag-row.is-active{outline:2px solid #78924e;background:rgba(225,235,195,.72)}.tag-row span:last-child{display:flex;gap:4px}.tag-detail{height:215px;margin-top:42px;overflow-y:auto;padding:10px 12px;border:1px solid rgba(185,157,104,.5);border-radius:12px;font-size:10px;line-height:1.55}.tag-detail h3{font-size:14px;margin-bottom:7px}.tag-empty{display:grid;place-items:center;height:100%;color:#8b826c;text-align:center}
+
+.leaderboard-card{width:343px;height:610px;background:url('../assets/images/ui/ranking_borad.jpg') center/100% 100% no-repeat;padding:135px 10px 30px 95px}.leaderboard-list{height:340px;overflow-y:auto}.leaderboard-row{display:grid;grid-template-columns:32px 1fr 68px 37px;gap:3px;align-items:center;min-height:39px;border-bottom:1px dotted #bfae8a;font:700 5px/1.2 var(--sans);white-space: nowrap;}.leaderboard-row strong{font-size:11px}.leaderboard-row.is-me{background:rgba(221,231,190,.62)}.my-rank{margin-top:18px;padding:0;border:none;border-radius:0;background:transparent;font:700 1px/1.4 var(--sans);position:relative; top:8px;left:32px}
+
+.settlement-full{position:absolute;inset:0;background:rgba(23,27,18,.72);display:grid;place-items:center}.settlement-card{position:relative;width:357px;height:634px;background-position:center;background-size:contain;background-repeat:no-repeat}.settlement-card .primary-button{position:absolute;left:94px;bottom:33px;width:170px;height:42px;font-size:17px}.cup-card{background-image:url('../assets/images/ui/cuptest_card_background.png')}.cup-flavor{position:absolute;top:236px;left:72px;width:215px;text-align:center;font-size:15px;line-height:1.25}.cup-score{position:absolute;top:330px;left:77px;width:207px;text-align:center;font:700 46px/1 var(--serif)}.cup-score small{font-size:15px}.cup-grade{position:absolute;top:440px;left:62px;width:233px;text-align:center;font-size:23px;color:#866019}
+.trade-card{background-image:url('../assets/images/ui/trading_card_background.png')}.trade-buyer{position:absolute;top:245px;left:177px;width:166px;font-size:11px}.trade-comment{position:absolute;top:280px;left:171px;width:153px;font-size:9px;line-height:1.35}.trade-field{position:absolute;width:50px;text-align:center;font:700 12px/1 var(--sans)}.trade-final-yield{top:368px;left:113px}.trade-unit{top:404px;left:105px}.trade-revenue{top:439px;left:111px}.trade-score{top:367px;left:274px}.trade-eco{top:438px;left:276px}.trade-profit{position:absolute;top:542px;left:112px;width:150px;text-align:center;font:700 22px/1 var(--serif)}.trade-card .primary-button{bottom:10px;height:38px}
+.grade-card{background-image:url('../assets/images/ui/grading_card_background.png')}.grade-metric{position:absolute;text-align:center;font:700 21px/1 var(--serif)}.grade-yield{top:275px;left:90px;width:78px}.grade-revenue{top:275px;left:223px;width:87px}.grade-profit{top:349px;left:77px;width:91px}.grade-tier{top:350px;left:219px;width:112px;font-size:10px;white-space:nowrap}.grade-rank{top:435px;left:72px;width:115px;font-size:30px}.grade-actions{position:absolute;left:44px;right:38px;bottom:27px;display:flex;gap:20px}.grade-actions button{width:137px;height:42px;border-radius:18px;font-size:14px}.grade-actions button:first-child{color:#fff;background:#688442}.grade-actions button:last-child{border:1px solid #9c7743;background:#f2e4c3;color:#543d27}
+
+.windfall-card{padding:100px 34px 30px;text-align:center}.windfall-card h2{font-size:25px}.windfall-card p{margin:35px 0;font-size:13px;line-height:1.7}.windfall-card .primary-button{width:160px;height:42px}

@@ -1,0 +1,16 @@
+/* 设计令牌模块：集中维护全站颜色、阴影和中英文字体栈。 */
+:root{
+  --ink:#27381f;
+  --ink-soft:#5d6146;
+  --paper:#f8eed8;
+  --paper-deep:#ead5ad;
+  --green:#607b35;
+  --green-dark:#304a23;
+  --green-pale:#dfe8c6;
+  --gold:#b8872d;
+  --red:#9e402a;
+  --line:#bca67c;
+  --shadow:0 14px 40px rgba(30,25,14,.30);
+  --serif:"STKaiti","KaiTi","FangSong","Noto Serif SC",serif;
+  --sans:"Microsoft YaHei UI","PingFang SC",sans-serif;
+}

@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+artifacts/*.tmp
+frontend/js/config.local.js
+.env
+.env.*
