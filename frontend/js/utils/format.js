@@ -13,8 +13,6 @@
     percent(n,digits=0){return `${(n*100).toFixed(digits)}%`},
     /** 格式化带明确正负号的人民币差值。 */
     signedMoney(n){return `${n>=0?"+":"-"}¥${this.number(Math.abs(n),0)}`},
-    /** 转义即将插入 innerHTML/HTML 属性的外部文本，防止排行榜昵称造成脚本注入。 */
-    html(value){return String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char])},
     signed,
     /** 把后台 0–100 风味/纯净度转换为五档圆点和中文标签，避免泄露精确值。 */
     quality(value,type){const levels=value<50?[1,type==="potential"?"薄弱":"混杂"]:value<65?[2,type==="potential"?"平淡":"一般"]:value<75?[3,type==="potential"?"良好":"尚净"]:value<85?[4,type==="potential"?"馥郁":"纯净"]:[5,type==="potential"?"卓越":"极净"];return {level:levels[0],label:levels[1]}},

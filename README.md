@@ -54,11 +54,11 @@ get_your_coffee/
 │  └─ js/
 │     ├─ config.js               # 全局配置与 CoffeeGame 命名空间
 │     ├─ game/                   # 纯数据、状态、规则与终局公式
-│     ├─ api/                    # Supabase Auth/Functions/排行榜与本地降级适配
+│     ├─ api/                    # 本地身份/存档/排行榜适配和远端模式占位
 │     ├─ utils/                  # 格式化、随机数、视口缩放
 │     ├─ ui/                     # DOM 页面与弹窗渲染
 │     └─ main.js                 # 应用流程总编排入口
-├─ supabase/                     # 远端数据库、RLS、公共榜单和 Edge Functions
+├─ supabase/                     # 可选的远端数据库与 Edge Function 安全骨架
 │  ├─ config.toml
 │  ├─ migrations/
 │  └─ functions/
@@ -113,17 +113,17 @@ get_your_coffee/
 
 | 文件 | 负责内容 | 主要输出/接口 |
 | --- | --- | --- |
-| `supabase.js` | 使用公开 URL/publishable key 初始化浏览器客户端；SDK 不可用时自动转本地模式。 | `CoffeeGame.backend` |
-| `auth.js` | 恢复 Supabase Session 或执行 Anonymous Auth；失败时保留本地身份。 | `auth.ensureAnonymous()` |
-| `profile.js` | 本地持久化八位 UID/昵称，并通过 `update-profile` 同步远端档案。 | `profile.getOrCreate()`、`save()`、`updateName()` |
-| `runs.js` | 保存最近 30 局；通过 `create-run` 取得服务端 run_id，通过 `submit-run` 提交终局。 | `runs.list()`、`createRemote()`、`submit()` |
-| `leaderboard.js` | 查询公共只读 `leaderboard` view；不读取 `runs`、不按 auth_user_id 过滤，失败时回退本地榜。 | `leaderboard.get()` |
+| `supabase.js` | 根据配置标记 `local`/`supabase` 模式，为未来远端客户端预留入口。 | `CoffeeGame.backend` |
+| `auth.js` | 保证存在匿名身份；当前代理到本地 profile，保留异步签名以兼容 Supabase Auth。 | `auth.ensureAnonymous()` |
+| `profile.js` | 生成八位 UID，读写昵称和创建时间，昵称截断到 16 字符。 | `profile.getOrCreate()`、`save()`、`updateName()` |
+| `runs.js` | 保存最近 30 局已完成记录，以 `runId` 幂等覆盖同局数据。 | `runs.list()`、`submit()` |
+| `leaderboard.js` | 从本地历史选出玩家净利润最高的一局，与样例榜单合并并排序。 | `leaderboard.get()` |
 
 ### 工具层 `frontend/js/utils/`
 
 | 文件 | 负责内容 |
 | --- | --- |
-| `format.js` | 人民币、数字、单位、品质和趋势格式化；转义远端玩家昵称等外部文本。 |
+| `format.js` | 人民币、普通数字、公斤、百分比、带符号差值、五档品质和趋势箭头格式化。 |
 | `random.js` | 提供统一 `[0,1)` 随机源；支持 URL `?rng=` 和 `use()` 注入固定序列进行复现。 |
 | `viewport.js` | 按设备可用宽高对 375 × 700 根画布做 `contain` 式等比缩放，小屏缩小、大屏放大。 |
 
@@ -150,16 +150,16 @@ get_your_coffee/
 | `scripts/simulation.py` | Python 兼容包装器，将参数和退出码转交给 JavaScript 模拟器。 |
 | `tests/game.test.js` | 验证初始值、传奇厌氧、水洗去残留、疲劳、濒死、免疫、生态否决、边界和标签去重。 |
 | `tests/assets.test.js` | 扫描 HTML/CSS/JS 的图片引用，验证文件存在且发布素材数不少于 43。 |
-| `tests/backend.test.js` | 验证公共榜单字段、最佳局排序、runs 私有 RLS、Edge Function 所有权校验和前端查询边界。 |
 | `supabase/config.toml` | Supabase 本地项目、API、匿名认证、站点 URL 和 Edge Function JWT 配置。 |
 | `supabase/migrations/001_profiles.sql` | 创建玩家档案表及 UID/昵称约束。 |
 | `supabase/migrations/002_runs.sql` | 创建对局状态枚举、对局表、最佳对局外键与查询索引。 |
 | `supabase/migrations/003_leaderboard.sql` | 创建只暴露最佳局的公开排行榜视图及稳定排序规则。 |
 | `supabase/migrations/004_rls.sql` | 开启 RLS，限制原始档案/对局访问，只公开排行榜视图。 |
-| `supabase/migrations/005_public_leaderboard.sql` | 为已上线数据库重建公共只读榜单；每人按四级规则仅保留最佳局。 |
+| `supabase/migrations/005_public_leaderboard.sql` | 已执行的历史迁移，必须保留以匹配远端迁移记录。 |
+| `supabase/migrations/006_revert_public_leaderboard.sql` | 撤销 005 的视图结构，恢复 003 的 `best_run_id` 排行榜实现。 |
 | `supabase/functions/create-run/index.ts` | 校验 Supabase 用户，为其创建服务端随机种子和 ongoing 对局。 |
 | `supabase/functions/update-profile/index.ts` | 校验昵称并 upsert 玩家档案。 |
-| `supabase/functions/submit-run/index.ts` | 校验 JWT、run_id 所有权、状态和载荷，以服务端权限写入终局并更新 best_run_id。 |
+| `supabase/functions/submit-run/index.ts` | 安全占位：权威复算未实现前固定返回 501，拒绝浏览器自报分数。 |
 | `.github/workflows/deploy-pages.yml` | main 分支推送后使用 Node 22 先测试，再发布 `frontend/` 到 GitHub Pages。 |
 | `package.json` | 声明 `serve`、`test`、`simulate` 命令；JSON 语法不允许行内注释。 |
 | `.gitignore` | 排除 `node_modules`、系统杂项、临时截图、本地配置覆盖和环境变量文件。 |
@@ -247,10 +247,10 @@ main.finishGame()
       → 买家门槛与基础单价
       → 生态溢价与药剂残留否决
       → 营收、净利润、品质、段位
-  → runs.submit()                     本地保存并调用 submit-run
+  → runs.submit()                     保存最近 30 局之一
   → settlementModal.showSettlement()
   → 杯测卡 → 交易卡 → 成绩卡
-  → leaderboard.get()                 读取公共脱敏 view 的全服榜单
+  → leaderboard.get()                 取个人最佳局并合并样例榜
   → 查看排行榜或清档重新经营
 ```
 
@@ -277,17 +277,19 @@ main.finishGame()
 | `status` | `ongoing` 或 `finished` |
 | `settlement` | 最终标准化结算对象 |
 
-## Supabase 远端链路与安全边界
+## Supabase 远端骨架
 
-- 浏览器只保存 Supabase URL 和 publishable key；secret/service-role key 只由 Edge Function 从环境变量读取。
-- Anonymous Auth 用户在数据库中属于 `authenticated` 角色。
-- `runs_select_own` 继续限制玩家只能读取自己的完整对局；客户端没有 runs UPDATE policy。
-- `create-run` 和 `submit-run` 先验证 JWT，再以服务端权限写入；`submit-run` 同时匹配 `run_id` 与 `auth_user_id`。
-- `leaderboard` 是单独的默认执行者权限 view，只投影 rank、昵称、公开 UID、净利润、SCA、交割产量和段位。
-- view 对 `anon/authenticated` 只授予 SELECT，不支持客户端写入，也不暴露 run_id、auth_user_id、选择日志或 final_state。
-- 005 视图直接从 finished runs 按“净利润 → SCA → 交割产量 → 更早完成”选择每人最佳局，不依赖 best_run_id 的更新时序。
+当前可玩版本是本地模式，`config.js` 中的 Supabase URL 和 Publishable Key 为空。数据库迁移、匿名开局和档案更新函数已经提供，但前端尚未实例化 Supabase 客户端，也没有把本地适配切换为远端读写。
 
-当前 `submit-run` 已做身份、所有权、状态、字段范围和载荷裁剪，并由 Edge Function 执行数据库 UPDATE。若需要竞赛级防作弊，还应继续把随机数和完整规则迁入共享服务端模块，由 seed 和选择日志重放终局；当前安全边界保证的是“不能读写其他玩家完整记录”，不是阻止玩家篡改自己浏览器中的游戏逻辑。
+`submit-run` 故意返回 HTTP 501。原因是 RLS 只能限制“谁能写”，不能证明“分数是按规则算出来的”。正式上线远端榜单前应完成以下链路：
+
+1. 把 `rounds/events/tags/settlement` 迁移为前后端共享的权威规则模块。
+2. 服务端保存 seed，接收的只有 `run_id` 和选择日志。
+3. Edge Function 从 seed 重放全部随机事件并重新计算终局。
+4. 复算通过后写入 `runs`，再更新 `profiles.best_run_id`。
+5. 客户端只读 `leaderboard` 视图，不能直接提交 SCA 或净利润。
+
+在这条权威复算链完成前，不应把 `submit-run` 改成信任客户端数字的普通 insert。
 
 ## 验证方式
 
@@ -297,7 +299,7 @@ main.finishGame()
 npm test
 ```
 
-当前包含十二项规则断言，覆盖启动资金、成本倍率、负债、处理法、疲劳、濒死、免疫、生态否决、边界和标签唯一性。资产测试会扫描代码图片引用并核对 44 张发布图片；后端测试会检查排行榜/RLS/Edge Function/前端查询的安全边界。
+当前包含九项规则断言，覆盖启动资金、处理法、疲劳、濒死、免疫、生态否决、边界和标签唯一性。资产测试会扫描代码图片引用并核对 43 张发布图片。
 
 ### 数值分布检查
 
