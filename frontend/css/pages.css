@@ -10,7 +10,6 @@
 .player-chip{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);max-width:260px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#586045;font:700 9px/1 var(--sans);text-shadow:0 1px rgba(255,255,255,.9)}
 
 /* 经营页：五项状态、阶段插画、侧边工具与三张决策卡。 */
-.game-screen{background-image:url('../assets/images/ui/mainpage_background.png')}
 .status-values{position:absolute;z-index:3;top:17px;left:22px;width:350px;height:59px;display:grid;grid-template-columns:repeat(5,1fr);padding-top:24px;text-align:center;pointer-events:none}
 .status-value{font:700 13px/1.15 var(--serif);white-space:nowrap}
 .status-value small{display:block;margin-top:2px;font:700 8px/1 var(--sans)}

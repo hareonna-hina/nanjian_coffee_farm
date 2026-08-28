@@ -7,6 +7,8 @@
   <meta name="theme-color" content="#24391d">
   <meta name="description" content="南涧咖啡庄园——一杯咖啡的山谷经营之旅">
   <title>南涧咖啡庄园</title>
+  <!-- 首页唯一可见位图：提前声明高优先级，其他阶段资源进入游戏后再加载。 -->
+  <link rel="preload" as="image" href="assets/images/start/startpage_background.png" fetchpriority="high">
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
@@ -34,7 +36,7 @@
           <section id="game-screen" class="screen game-screen" aria-label="庄园经营页">
             <div id="status-bar" class="status-values" aria-live="polite"></div>
             <div class="stage-visual" aria-label="咖啡生命周期主视觉">
-              <img id="stage-image" alt="当前咖啡庄园阶段">
+              <img id="stage-image" alt="当前咖啡庄园阶段" loading="eager" fetchpriority="high" decoding="async">
             </div>
             <nav class="side-tools" aria-label="局内功能">
               <button type="button" data-open="leaderboard"><span>🏆</span><small>排行榜</small></button>
@@ -70,6 +72,7 @@
   <script src="js/utils/format.js"></script>
   <script src="js/utils/random.js"></script>
   <script src="js/utils/viewport.js"></script>
+  <script src="js/utils/images.js"></script>
   <script src="js/ui/statusBar.js"></script>
   <script src="js/ui/decisionCards.js"></script>
   <script src="js/ui/eventModal.js"></script>
