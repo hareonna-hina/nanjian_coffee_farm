@@ -1,0 +1,896 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/tng7ji",
+    "id": "tng7ji",
+    "slide": 6,
+    "layoutId": "403c4e9b-bcb1-409f-9cec-6f7022060757",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F0E4",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "403c4e9b-bcb1-409f-9cec-6f7022060757",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h83a10jm",
+      "id": "1",
+      "name": "eyebrow-6",
+      "bbox": [
+        72,
+        42,
+        430,
+        24
+      ],
+      "geometry": "rect",
+      "text": "04 / 庄园主循环",
+      "textPreview": "04 / 庄园主循环",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "color": "#9A6545",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04 / 庄园主循环"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04 / 庄园主循环",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A6545",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04 / 庄园主循环",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A6545",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5cbql0v",
+      "id": "2",
+      "name": "title-6",
+      "bbox": [
+        72,
+        72,
+        1136,
+        70
+      ],
+      "geometry": "rect",
+      "text": "五轮经营，把产区知识放进真实取舍",
+      "textPreview": "五轮经营，把产区知识放进真实取舍",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Microsoft YaHei",
+        "color": "#302218",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "五轮经营，把产区知识放进真实取舍"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "五轮经营，把产区知识放进真实取舍",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Microsoft YaHei",
+            "color": "#302218",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "五轮经营，把产区知识放进真实取舍",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei",
+              "color": "#302218",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6lszq1g",
+      "id": "3",
+      "name": "subtitle-6",
+      "bbox": [
+        72,
+        145,
+        1030,
+        34
+      ],
+      "geometry": "rect",
+      "text": "每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。 ",
+      "textPreview": "每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。 ",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。 ",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83atobi5",
+      "id": "4",
+      "name": "accent-6",
+      "bbox": [
+        72,
+        183,
+        90,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#9A6545",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t4jaxgja",
+      "id": "5",
+      "name": "footer-line-6",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9C8B0",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61sbm10z",
+      "id": "6",
+      "name": "footer-label-6",
+      "bbox": [
+        72,
+        684,
+        300,
+        20
+      ],
+      "geometry": "rect",
+      "text": "KFTI × 南涧咖啡庄园",
+      "textPreview": "KFTI × 南涧咖啡庄园",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KFTI × 南涧咖啡庄园"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KFTI × 南涧咖啡庄园",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KFTI × 南涧咖啡庄园",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/721sv61k",
+      "id": "7",
+      "name": "footer-page-6",
+      "bbox": [
+        1150,
+        684,
+        58,
+        20
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szet0fi9",
+      "id": "8",
+      "name": "s5-number",
+      "bbox": [
+        80,
+        215,
+        130,
+        115
+      ],
+      "geometry": "rect",
+      "text": "5",
+      "textPreview": "5",
+      "resolvedFontSize": 83.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 92,
+        "typeface": "Microsoft YaHei",
+        "color": "#5D743E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.91,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 92,
+            "typeface": "Microsoft YaHei",
+            "color": "#5D743E",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5",
+              "fontSize": 92,
+              "typeface": "Microsoft YaHei",
+              "color": "#5D743E",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0nu9kzu",
+      "id": "9",
+      "name": "s5-number-label",
+      "bbox": [
+        205,
+        252,
+        260,
+        52
+      ],
+      "geometry": "rect",
+      "text": "个经营阶段",
+      "textPreview": "个经营阶段",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Microsoft YaHei",
+        "color": "#302218",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "个经营阶段"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "个经营阶段",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Microsoft YaHei",
+            "color": "#302218",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "个经营阶段",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#302218",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d43qhgbe",
+      "id": "10",
+      "name": "s5-stages",
+      "bbox": [
+        80,
+        350,
+        700,
+        44
+      ],
+      "geometry": "rect",
+      "text": "建园　→　生长　→　开花　→　采收　→　处理",
+      "textPreview": "建园　→　生长　→　开花　→　采收　→　处理",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Microsoft YaHei",
+        "color": "#6E3F27",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "建园　→　生长　→　开花　→　采收　→　处理"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "建园　→　生长　→　开花　→　采收　→　处理",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Microsoft YaHei",
+            "color": "#6E3F27",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "建园　→　生长　→　开花　→　采收　→　处理",
+              "fontSize": 26,
+              "typeface": "Microsoft YaHei",
+              "color": "#6E3F27",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cjup8bat",
+      "id": "11",
+      "name": "s5-stage-rule",
+      "bbox": [
+        80,
+        416,
+        670,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9C8B0",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ril8f6t8",
+      "id": "12",
+      "name": "s5-detail",
+      "bbox": [
+        80,
+        448,
+        670,
+        132
+      ],
+      "geometry": "rect",
+      "text": "15 个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。",
+      "textPreview": "15 个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "15"
+          },
+          {
+            "index": 2,
+            "text": "个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆"
+          },
+          {
+            "index": 3,
+            "text": "处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "15 个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。",
+          "lineSpacingPercent": 135000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.35
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "15 个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.35
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qhc761cn",
+      "id": "13",
+      "name": "s5-resource",
+      "bbox": [
+        80,
+        603,
+        670,
+        34
+      ],
+      "geometry": "rect",
+      "text": "资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度",
+      "textPreview": "资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#5D743E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#5D743E",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#5D743E",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pgjqdwb2",
+      "id": "14",
+      "name": "estate-choice-shadow",
+      "bbox": [
+        873,
+        205,
+        320,
+        468
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(58, 36, 24, 0.14)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/buxgzaxw",
+      "id": "15",
+      "bbox": [
+        865,
+        195,
+        320,
+        468
+      ],
+      "geometry": "roundRect",
+      "alt": "南涧咖啡庄园第一阶段选择界面",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6250"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "7dba7115-2caf-423c-ba9b-443616a11088",
+        "contentType": "image/png",
+        "byteLength": 649677
+      }
+    }
+  ],
+  "composeRuns": []
+}

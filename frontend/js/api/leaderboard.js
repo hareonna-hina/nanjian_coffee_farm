@@ -2,7 +2,7 @@
 (function(CG){
   // 无远端数据库时用于构成完整榜单的固定样例数据。
   const samples=[
-    {name:"无前",uid:"66666666",profit:8888888,sca:99.9},{name:"天天吃",uid:"99966688",profit:990000,sca:95},{name:"絮絮",uid:"92245176",profit:0,sca:101},{name:"章鱼",uid:"15540782",profit:-104380,sca:99.9},{name:"核桃林小满",uid:"80623911",profit:88720,sca:86.2},{name:"彝乡咖农_07",uid:"82736145",profit:71390,sca:83.8},{name:"花香上山",uid:"44201568",profit:53600,sca:85.1},{name:"古茶坡庄主",uid:"73029154",profit:39480,sca:82.4},{name:"红土新苗",uid:"10487532",profit:28640,sca:79.7}
+    {name:"无前",uid:"66666666",profit:8888888,sca:99.9},{name:"天天吃",uid:"99966688",profit:990000,sca:95},{name:"絮絮",uid:"92245176",profit:0,sca:101},{name:"章鱼大王",uid:"15540782",profit:8888887,sca:90.9},{name:"核桃林小满",uid:"80623911",profit:88720,sca:86.2},{name:"彝乡咖农_07",uid:"82736145",profit:71390,sca:83.8},{name:"花香上山",uid:"44201568",profit:53600,sca:85.1},{name:"古茶坡庄主",uid:"73029154",profit:39480,sca:82.4},{name:"红土新苗",uid:"10487532",profit:28640,sca:79.7}
   ];
   CG.leaderboard={
     /**

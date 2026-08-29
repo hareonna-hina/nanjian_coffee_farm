@@ -1,0 +1,178 @@
+{"kind":"deck","id":"pr/crxkzy","name":"Deck"}
+{"kind":"layout","layoutId":"eb2baad5-beaa-4413-9bd4-3332c3de1ae6","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"9cb0296d-0a5e-47cf-b06a-5fc02e98989e","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/x200jh","slide":1,"title":"INTERACTIVE COFFEE EXPERIENCE","textShapes":4}
+{"kind":"shape","id":"sh/wnup4j2l","slide":1,"name":"cover-overlay","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ny18ru14","slide":1,"name":"cover-kicker","text":"INTERACTIVE COFFEE EXPERIENCE","textPreview":"INTERACTIVE COFFEE EXPERIENCE","textChars":29,"textLines":1,"bbox":[86,95,540,34]}
+{"kind":"textbox","id":"sh/mxs7ypkj","slide":1,"name":"cover-title","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[82,175,1115,100]}
+{"kind":"textbox","id":"sh/90jqt4ju","slide":1,"name":"cover-subtitle","text":"从认识自己的咖啡偏好，到经营一座山地庄园","textPreview":"从认识自己的咖啡偏好，到经营一座山地庄园","textChars":20,"textLines":1,"bbox":[86,292,880,52]}
+{"kind":"shape","id":"sh/ozap0z29","slide":1,"name":"cover-rule","bbox":[86,380,118,5]}
+{"kind":"textbox","id":"sh/zu1onu1s","slide":1,"name":"cover-meta","text":"项目汇报 · 互动测试 × 经营模拟","textPreview":"项目汇报 · 互动测试 × 经营模拟","textChars":18,"textLines":1,"bbox":[86,412,600,36]}
+{"kind":"image","id":"im/7m5gjups","slide":1,"name":"","alt":"KFTI 咖啡人格测试首页","bbox":[0,0,640,720]}
+{"kind":"image","id":"im/snehsz6d","slide":1,"name":"","alt":"南涧咖啡庄园首页","bbox":[640,0,640,720]}
+{"kind":"notes","id":"nt/x200jh","slide":1,"text":"开场先强调：这不是两个孤立页面，而是围绕咖啡认知设计的两段连续体验。\n\n[Sources]\n- PPT图片/KFTI_page.png\n- PPT图片/page.png"}
+{"kind":"slide","id":"sl/he8b09","slide":2,"title":"01 / 项目定位","textShapes":13}
+{"kind":"textbox","id":"sh/ormpsnmh","slide":2,"name":"eyebrow-2","text":"01 / 项目定位","textPreview":"01 / 项目定位","textChars":9,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/nqd8ji5w","slide":2,"name":"title-2","text":"两条体验路径，回答同一个问题","textPreview":"两条体验路径，回答同一个问题","textChars":14,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/mp47qd4b","slide":2,"name":"subtitle-2","text":"怎样让咖啡从“饮品”变成可理解、可参与、可复玩的文化体验？","textPreview":"怎样让咖啡从“饮品”变成可理解、可参与、可复玩的文化体验？","textChars":29,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/14bqh8n6","slide":2,"name":"accent-2","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/032po3ml","slide":2,"name":"footer-line-2","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/z2t8fy50","slide":2,"name":"footer-label-2","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/e1k7md4f","slide":2,"name":"footer-page-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"textbox","id":"sh/d0b6d8nu","slide":2,"name":"s2-left-index","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,235,100,72]}
+{"kind":"textbox","id":"sh/cz2pk3m9","slide":2,"name":"s2-left-title","text":"KFTI 咖啡人格测试","textPreview":"KFTI 咖啡人格测试","textChars":11,"textLines":1,"bbox":[92,315,430,44]}
+{"kind":"textbox","id":"sh/mlorudkv","slide":2,"name":"s2-left-body","text":"从日常选择切入，把奶感、仪式、猎奇与酸苦偏好转译成一组可被讲述的咖啡人格。","textPreview":"从日常选择切入，把奶感、仪式、猎奇与酸苦偏好转译成一组可被讲述的咖啡人格。","textChars":37,"textLines":1,"bbox":[92,378,430,120]}
+{"kind":"textbox","id":"sh/nmxsnilg","slide":2,"name":"s2-left-outcome","text":"认识自己 → 找到风味入口","textPreview":"认识自己 → 找到风味入口","textChars":13,"textLines":1,"bbox":[92,540,430,38]}
+{"kind":"shape","id":"sh/8n69wn21","slide":2,"name":"s2-divider","bbox":[628,230,2,350]}
+{"kind":"textbox","id":"sh/9ofap836","slide":2,"name":"s2-right-index","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[708,235,100,72]}
+{"kind":"textbox","id":"sh/ex4rqtkj","slide":2,"name":"s2-right-title","text":"南涧咖啡庄园","textPreview":"南涧咖啡庄园","textChars":6,"textLines":1,"bbox":[708,315,430,44]}
+{"kind":"textbox","id":"sh/zydsjyl4","slide":2,"name":"s2-right-body","text":"把产区、农艺、采收与处理变成五轮经营决策，让玩家亲手承担成本、风险与品质之间的取舍。","textPreview":"把产区、农艺、采收与处理变成五轮经营决策，让玩家亲手承担成本、风险与品质之间的取舍。","textChars":42,"textLines":1,"bbox":[708,378,430,120]}
+{"kind":"textbox","id":"sh/0zm9s32p","slide":2,"name":"s2-right-outcome","text":"理解产区 → 看见选择后果","textPreview":"理解产区 → 看见选择后果","textChars":13,"textLines":1,"bbox":[708,540,430,38]}
+{"kind":"notes","id":"nt/he8b09","slide":2,"text":"这一页建立整体框架：KFTI负责降低理解门槛，庄园负责把知识变成决策，两者共同完成从偏好到产区的认知链。\n\n[Sources]\n- PPT图片/KFTI_page.png\n- PPT图片/page.png\n- README.md"}
+{"kind":"slide","id":"sl/lk6nvq","slide":3,"title":"02 / KFTI 机制","textShapes":18}
+{"kind":"textbox","id":"sh/e5gjyp4v","slide":3,"name":"eyebrow-3","text":"02 / KFTI 机制","textPreview":"02 / KFTI 机制","textChars":12,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/1sr2t43m","slide":3,"name":"title-3","text":"12 道情境题，把抽象偏好变成四维人格","textPreview":"12 道情境题，把抽象偏好变成四维人格","textChars":19,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/0ry10zm1","slide":3,"name":"subtitle-3","text":"题目不直接问“喜欢哪种豆”，而是用团队协作、生活习惯与选择方式映射偏好。 ","textPreview":"题目不直接问“喜欢哪种豆”，而是用团队协作、生活习惯与选择方式映射偏好。","textChars":37,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/nu9kvulc","slide":3,"name":"accent-3","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/2t0j2947","slide":3,"name":"footer-line-3","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/pwr2x43i","slide":3,"name":"footer-label-3","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/ovi14zmx","slide":3,"name":"footer-page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"shape","id":"sh/3y50zal8","slide":3,"name":"kfti-question-shadow","bbox":[90,215,300,440]}
+{"kind":"textbox","id":"sh/43mtwbad","slide":3,"name":"s3-claim","text":"四个维度共同构成人格代码","textPreview":"四个维度共同构成人格代码","textChars":12,"textLines":1,"bbox":[468,218,660,42]}
+{"kind":"textbox","id":"sh/54vu5gby","slide":3,"name":"s3-code-0","text":"M · Milk","textPreview":"M · Milk","textChars":8,"textLines":1,"bbox":[468,292,185,34]}
+{"kind":"textbox","id":"sh/i14bu1s7","slide":3,"name":"s3-name-0","text":"奶感与连接","textPreview":"奶感与连接","textChars":5,"textLines":1,"bbox":[668,292,180,34]}
+{"kind":"textbox","id":"sh/32dc36ts","slide":3,"name":"s3-desc-0","text":"关注温和、包容与情绪联结","textPreview":"关注温和、包容与情绪联结","textChars":12,"textLines":1,"bbox":[850,292,350,44]}
+{"kind":"shape","id":"sh/sr6d0ba9","slide":3,"name":"s3-sep-0","bbox":[468,347,715,1]}
+{"kind":"textbox","id":"sh/dsfu9gru","slide":3,"name":"s3-code-1","text":"R · Ritual","textPreview":"R · Ritual","textChars":10,"textLines":1,"bbox":[468,371,185,34]}
+{"kind":"textbox","id":"sh/qp4bylsj","slide":3,"name":"s3-name-1","text":"仪式与层次","textPreview":"仪式与层次","textChars":5,"textLines":1,"bbox":[668,371,180,34]}
+{"kind":"textbox","id":"sh/rqdc7q9o","slide":3,"name":"s3-desc-1","text":"偏好结构、过程与完整体验","textPreview":"偏好结构、过程与完整体验","textChars":12,"textLines":1,"bbox":[850,371,350,44]}
+{"kind":"shape","id":"sh/8v2tora5","slide":3,"name":"s3-sep-1","bbox":[468,426,715,1]}
+{"kind":"textbox","id":"sh/twbuxwbq","slide":3,"name":"s3-code-2","text":"X · Novelty","textPreview":"X · Novelty","textChars":11,"textLines":1,"bbox":[468,450,185,34]}
+{"kind":"textbox","id":"sh/9gji5oz2","slide":3,"name":"s3-name-2","text":"新奇与反差","textPreview":"新奇与反差","textChars":5,"textLines":1,"bbox":[668,450,180,34]}
+{"kind":"textbox","id":"sh/ofa1cjyx","slide":3,"name":"s3-desc-2","text":"乐于尝试非典型组合与复杂风味","textPreview":"乐于尝试非典型组合与复杂风味","textChars":14,"textLines":1,"bbox":[850,450,350,44]}
+{"kind":"shape","id":"sh/ne103ehc","slide":3,"name":"s3-sep-2","bbox":[468,505,715,1]}
+{"kind":"textbox","id":"sh/2dsja9gr","slide":3,"name":"s3-code-3","text":"A · Acid / Bitter","textPreview":"A · Acid / Bitter","textChars":17,"textLines":1,"bbox":[468,529,185,34]}
+{"kind":"textbox","id":"sh/xk3i9oze","slide":3,"name":"s3-name-3","text":"酸苦取向","textPreview":"酸苦取向","textChars":4,"textLines":1,"bbox":[668,529,180,34]}
+{"kind":"textbox","id":"sh/wju1g3yt","slide":3,"name":"s3-desc-3","text":"强调鲜明个性，而非迎合多数口味","textPreview":"强调鲜明个性，而非迎合多数口味","textChars":15,"textLines":1,"bbox":[850,529,350,44]}
+{"kind":"image","id":"im/bi9c3qdo","slide":3,"name":"","geometry":"roundRect","alt":"KFTI 情境选择题页面","bbox":[82,205,300,440]}
+{"kind":"notes","id":"nt/lk6nvq","slide":3,"text":"KFTI 的信息设计重点是：先让用户回答熟悉的情境，再在结果页解释咖啡偏好的含义，降低专业术语的进入门槛。\n\n[Sources]\n- PPT图片/KFTI_choice.png\n- PPT图片/KFTI_result_2.png"}
+{"kind":"slide","id":"sl/es2n4j","slide":4,"title":"03 / KFTI 输出","textShapes":8}
+{"kind":"textbox","id":"sh/4zy94f6l","slide":4,"name":"eyebrow-4","text":"03 / KFTI 输出","textPreview":"03 / KFTI 输出","textChars":12,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/jyp8bap0","slide":4,"name":"title-4","text":"结果不止给标签，还给出一套可继续探索的线索","textPreview":"结果不止给标签，还给出一套可继续探索的线索","textChars":21,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/ixg725of","slide":4,"name":"subtitle-4","text":"人格代码、风味档案、产区推荐、四维解释与关系提示共同组成完整结果页。 ","textPreview":"人格代码、风味档案、产区推荐、四维解释与关系提示共同组成完整结果页。","textChars":35,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/t4rqhk72","slide":4,"name":"accent-4","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/s3y98f6h","slide":4,"name":"footer-line-4","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/r2p8fapc","slide":4,"name":"footer-label-4","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/61gr6por","slide":4,"name":"footer-page-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"shape","id":"sh/98nq507y","slide":4,"name":"kfti-result-1-shadow","bbox":[74,215,338,440]}
+{"kind":"shape","id":"sh/qtc7u98n","slide":4,"name":"kfti-result-2-shadow","bbox":[478,215,338,440]}
+{"kind":"shape","id":"sh/cvepwjqd","slide":4,"name":"kfti-result-3-shadow","bbox":[882,215,338,440]}
+{"kind":"textbox","id":"sh/exw7yt8j","slide":4,"name":"s4-label-1","text":"身份与风味","textPreview":"身份与风味","textChars":5,"textLines":1,"bbox":[94,608,280,28]}
+{"kind":"textbox","id":"sh/zy5o7ep4","slide":4,"name":"s4-label-2","text":"四维拆解","textPreview":"四维拆解","textChars":4,"textLines":1,"bbox":[498,608,280,28]}
+{"kind":"textbox","id":"sh/0zep0jqp","slide":4,"name":"s4-label-3","text":"高光与关系","textPreview":"高光与关系","textChars":5,"textLines":1,"bbox":[902,608,280,28]}
+{"kind":"image","id":"im/xwvepgji","slide":4,"name":"","geometry":"roundRect","alt":"KFTI 结果页第 1 部分","bbox":[66,205,338,440]}
+{"kind":"image","id":"im/w7yd8bat","slide":4,"name":"","geometry":"roundRect","alt":"KFTI 结果页第 2 部分","bbox":[470,205,338,440]}
+{"kind":"image","id":"im/a5gv61sn","slide":4,"name":"","geometry":"roundRect","alt":"KFTI 结果页第 3 部分","bbox":[874,205,338,440]}
+{"kind":"notes","id":"nt/es2n4j","slide":4,"text":"以 MRXA“层次探索家”为例，结果页同时回答‘我是谁、我偏好什么、可以喝什么、为什么会这样’，把一次测试变成后续探索入口。\n\n[Sources]\n- PPT图片/KFTI_result_1.png\n- PPT图片/KFTI_result_2.png\n- PPT图片/KFTI_result_3.png"}
+{"kind":"slide","id":"sl/80vkhm","slide":5,"title":"04 / 庄园主循环","textShapes":10}
+{"kind":"textbox","id":"sh/29c3uls3","slide":5,"name":"eyebrow-5","text":"04 / 庄园主循环","textPreview":"04 / 庄园主循环","textChars":10,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/pcnmp0ru","slide":5,"name":"title-5","text":"五轮经营，把产区知识放进真实取舍","textPreview":"五轮经营，把产区知识放进真实取舍","textChars":16,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/obelwva9","slide":5,"name":"subtitle-5","text":"每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。 ","textPreview":"每一次选择都同时改变资金、产量、树体活力、风味潜力与纯净度。","textChars":31,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/f6l4z69s","slide":5,"name":"accent-5","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/e5c3qls7","slide":5,"name":"footer-line-5","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/183mlgry","slide":5,"name":"footer-label-5","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/g7ulsbad","slide":5,"name":"footer-page-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"textbox","id":"sh/z2p4va9w","slide":5,"name":"s5-number","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[80,215,130,115]}
+{"kind":"textbox","id":"sh/y1g325sb","slide":5,"name":"s5-number-label","text":"个经营阶段","textPreview":"个经营阶段","textChars":5,"textLines":1,"bbox":[205,252,260,52]}
+{"kind":"textbox","id":"sh/onq9g7ul","slide":5,"name":"s5-stages","text":"建园　→　生长　→　开花　→　采收　→　处理","textPreview":"建园　→　生长　→　开花　→　采收　→　处理","textChars":22,"textLines":1,"bbox":[80,350,700,44]}
+{"kind":"shape","id":"sh/p8zapcv6","slide":5,"name":"s5-stage-rule","bbox":[80,416,670,2]}
+{"kind":"textbox","id":"sh/2l8rexcf","slide":5,"name":"s5-detail","text":"15 个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。","textPreview":"15 个主线选项围绕海拔与品种、遮阴生态、挂果策略、采收标准和生豆处理展开。玩家看到的是方向性趋势，精确影响在选择后揭晓。","textChars":61,"textLines":1,"bbox":[80,448,670,132]}
+{"kind":"textbox","id":"sh/3mhsn2d0","slide":5,"name":"s5-resource","text":"资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度","textPreview":"资金 · 预计产量 · 树体活力 · 风味潜力 · 纯净度","textChars":29,"textLines":1,"bbox":[80,603,670,34]}
+{"kind":"shape","id":"sh/gjq9c7up","slide":5,"name":"estate-choice-shadow","bbox":[873,205,320,468]}
+{"kind":"image","id":"im/e9kvu50j","slide":5,"name":"","geometry":"roundRect","alt":"南涧咖啡庄园第一阶段选择界面","bbox":[865,195,320,468]}
+{"kind":"notes","id":"nt/80vkhm","slide":5,"text":"庄园端的核心不是记知识点，而是理解变量之间的耦合：高风味往往意味着更高成本、更慢生长或更低产量。\n\n[Sources]\n- PPT图片/choice.png\n- README.md\n- frontend/js/game/rounds.js"}
+{"kind":"slide","id":"sl/49khrm","slide":6,"title":"05 / 风险与决策","textShapes":10}
+{"kind":"textbox","id":"sh/pk3atwju","slide":6,"name":"eyebrow-6","text":"05 / 风险与决策","textPreview":"05 / 风险与决策","textChars":10,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/2hcbihkj","slide":6,"name":"title-6","text":"随机事件让农业经营的风险变得可感知","textPreview":"随机事件让农业经营的风险变得可感知","textChars":17,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/3ilsrm14","slide":6,"name":"subtitle-6","text":"危机与奇遇不是装饰，而是要求玩家在资金、树势和长期品质之间再次取舍。 ","textPreview":"危机与奇遇不是装饰，而是要求玩家在资金、树势和长期品质之间再次取舍。","textChars":35,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/cnetobil","slide":6,"name":"accent-6","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/donaxwj6","slide":6,"name":"footer-line-6","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/qlcbm1kf","slide":6,"name":"footer-label-6","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/rm5sv610","slide":6,"name":"footer-page-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"shape","id":"sh/0betsbih","slide":6,"name":"estate-event-shadow","bbox":[80,205,375,470]}
+{"kind":"textbox","id":"sh/psfe50ve","slide":6,"name":"s6-big","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[525,222,120,90]}
+{"kind":"textbox","id":"sh/476dcvut","slide":6,"name":"s6-big-label","text":"个事件池条目","textPreview":"个事件池条目","textChars":6,"textLines":1,"bbox":[648,252,260,42]}
+{"kind":"textbox","id":"sh/36xw3ad8","slide":6,"name":"s6-body","text":"前三轮各进行一次随机判定，可能出现风调雨顺、奇遇或危机。每个事件提供三种应对：投入资源解决、接受局部损失，或承担不确定结果。","textPreview":"前三轮各进行一次随机判定，可能出现风调雨顺、奇遇或危机。每个事件提供三种应对：投入资源解决、接受局部损失，或承担不确定结果。","textChars":62,"textLines":1,"bbox":[525,335,660,112]}
+{"kind":"textbox","id":"sh/25ova5cn","slide":6,"name":"s6-example-title","text":"以“干热春旱”为例","textPreview":"以“干热春旱”为例","textChars":9,"textLines":1,"bbox":[525,485,330,36]}
+{"kind":"textbox","id":"sh/dwze9kva","slide":6,"name":"s6-example","text":"铺设滴灌：资金换活力\n覆草堆肥：低成本缓解损失\n听天由命：零成本，但结果取决于树势","textPreview":"铺设滴灌：资金换活力 | 覆草堆肥：低成本缓解损失 | 听天由命：零成本，但结果取决于树势","textChars":41,"textLines":3,"bbox":[525,535,600,105]}
+{"kind":"image","id":"im/k76d03ih","slide":6,"name":"","geometry":"roundRect","alt":"南涧咖啡庄园突发事件卡","bbox":[72,195,375,470]}
+{"kind":"notes","id":"nt/49khrm","slide":6,"text":"事件系统把气候、病虫害、劳动力与乡土互助等因素转化为玩家可以理解的经营压力。\n\n[Sources]\n- PPT图片/accident.png\n- README.md\n- frontend/js/game/events.js\n- frontend/js/game/engine.js"}
+{"kind":"slide","id":"sl/r9p0bd","slide":7,"title":"06 / 反馈闭环","textShapes":18}
+{"kind":"textbox","id":"sh/zqh4jil8","slide":7,"name":"eyebrow-7","text":"06 / 反馈闭环","textPreview":"06 / 反馈闭环","textChars":9,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/0rqlcnmd","slide":7,"name":"title-7","text":"选择最终被翻译成品质、市场与利润","textPreview":"选择最终被翻译成品质、市场与利润","textChars":16,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/1sjmls3y","slide":7,"name":"subtitle-7","text":"从资源变化到标签，从 SCA 与瑕疵率到买家报价，结果始终可追溯到此前的经营取舍。 ","textPreview":"从资源变化到标签，从 SCA 与瑕疵率到买家报价，结果始终可追溯到此前的经营取舍。","textChars":42,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/ql836d4b","slide":7,"name":"accent-7","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/rmh4filw","slide":7,"name":"footer-line-7","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/cnql8nmh","slide":7,"name":"footer-label-7","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/dozmh832","slide":7,"name":"footer-page-7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"shape","id":"sh/ahsnix4v","slide":7,"name":"round-summary-shadow","bbox":[62,212,300,442]}
+{"kind":"shape","id":"sh/32dwbad0","slide":7,"name":"trade-card-shadow","bbox":[403,212,300,442]}
+{"kind":"textbox","id":"sh/p4vedkv6","slide":7,"name":"s7-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[770,218,60,34]}
+{"kind":"textbox","id":"sh/o3mx4ful","slide":7,"name":"s7-title-0","text":"资源与标签","textPreview":"资源与标签","textChars":5,"textLines":1,"bbox":[842,218,290,34]}
+{"kind":"textbox","id":"sh/b6dwfudc","slide":7,"name":"s7-desc-0","text":"记录每轮选择造成的即时变化","textPreview":"记录每轮选择造成的即时变化","textChars":13,"textLines":1,"bbox":[842,256,350,42]}
+{"kind":"shape","id":"sh/q54f6pcr","slide":7,"name":"s7-line-0","bbox":[770,300,420,1]}
+{"kind":"textbox","id":"sh/d8vehkv2","slide":7,"name":"s7-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[770,318,60,34]}
+{"kind":"textbox","id":"sh/c7mx8fux","slide":7,"name":"s7-title-1","text":"品质与瑕疵","textPreview":"品质与瑕疵","textChars":5,"textLines":1,"bbox":[842,318,290,34]}
+{"kind":"textbox","id":"sh/zaxgjud8","slide":7,"name":"s7-desc-1","text":"综合风味潜力、纯净度、活力和标签","textPreview":"综合风味潜力、纯净度、活力和标签","textChars":16,"textLines":1,"bbox":[842,356,350,42]}
+{"kind":"shape","id":"sh/y9ofapcn","slide":7,"name":"s7-line-1","bbox":[770,400,420,1]}
+{"kind":"textbox","id":"sh/a58z2twv","slide":7,"name":"s7-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[770,418,60,34]}
+{"kind":"textbox","id":"sh/v6h0byxg","slide":7,"name":"s7-title-2","text":"买家与单价","textPreview":"买家与单价","textChars":5,"textLines":1,"bbox":[842,418,290,34]}
+{"kind":"textbox","id":"sh/w7qh43e1","slide":7,"name":"s7-desc-2","text":"根据 SCA、处理法和生态认证匹配市场","textPreview":"根据 SCA、处理法和生态认证匹配市场","textChars":19,"textLines":1,"bbox":[842,456,350,42]}
+{"kind":"shape","id":"sh/xsjid8fm","slide":7,"name":"s7-line-2","bbox":[770,500,420,1]}
+{"kind":"textbox","id":"sh/m18zytwz","slide":7,"name":"s7-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[770,518,60,34]}
+{"kind":"textbox","id":"sh/n2h07exk","slide":7,"name":"s7-title-3","text":"营收与净利润","textPreview":"营收与净利润","textChars":6,"textLines":1,"bbox":[842,518,290,34]}
+{"kind":"textbox","id":"sh/83qh0je5","slide":7,"name":"s7-desc-3","text":"扣除成本、折旧与负债后形成最终成绩","textPreview":"扣除成本、折旧与负债后形成最终成绩","textChars":17,"textLines":1,"bbox":[842,556,350,42]}
+{"kind":"textbox","id":"sh/94zi9ofa","slide":7,"name":"s7-end","text":"一局经营，形成一条完整的因果链。","textPreview":"一局经营，形成一条完整的因果链。","textChars":16,"textLines":1,"bbox":[770,620,430,34]}
+{"kind":"image","id":"im/yxs3qxg3","slide":7,"name":"","geometry":"roundRect","alt":"本轮结算卡","bbox":[54,202,300,442]}
+{"kind":"image","id":"im/hovelcjy","slide":7,"name":"","geometry":"roundRect","alt":"生豆交易结算卡","bbox":[395,202,300,442]}
+{"kind":"notes","id":"nt/r9p0bd","slide":7,"text":"这一页强调系统的可解释性：玩家不仅看到一个分数，还能看到每轮资源、标签、买家、单价与净利润是如何形成的。\n\n[Sources]\n- PPT图片/summary.png\n- PPT图片/trading_card.png\n- README.md\n- frontend/js/game/settlement.js"}
+{"kind":"slide","id":"sl/o49m6f","slide":8,"title":"07 / 可复玩与验证","textShapes":14}
+{"kind":"textbox","id":"sh/xk3m1k7e","slide":8,"name":"eyebrow-8","text":"07 / 可复玩与验证","textPreview":"07 / 可复玩与验证","textChars":11,"textLines":1,"bbox":[72,42,430,24]}
+{"kind":"textbox","id":"sh/ahcnq583","slide":8,"name":"title-8","text":"榜单把单局结果变成可比较、可复盘的反馈","textPreview":"榜单把单局结果变成可比较、可复盘的反馈","textChars":19,"textLines":1,"bbox":[72,72,1136,70]}
+{"kind":"textbox","id":"sh/bil4zap8","slide":8,"name":"subtitle-8","text":"每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。 ","textPreview":"每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。","textChars":32,"textLines":1,"bbox":[72,145,1030,34]}
+{"kind":"shape","id":"sh/ofu5ofqx","slide":8,"name":"accent-8","bbox":[72,183,90,4]}
+{"kind":"shape","id":"sh/pg3mx07i","slide":8,"name":"footer-line-8","bbox":[70,676,1140,1]}
+{"kind":"textbox","id":"sh/2dsnm58r","slide":8,"name":"footer-label-8","text":"KFTI × 南涧咖啡庄园","textPreview":"KFTI × 南涧咖啡庄园","textChars":13,"textLines":1,"bbox":[72,684,300,20]}
+{"kind":"textbox","id":"sh/nel4va9c","slide":8,"name":"footer-page-8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1150,684,58,20]}
+{"kind":"textbox","id":"sh/8be50zq1","slide":8,"name":"s8-claim","text":"产品已经形成可运行、可验证的闭环","textPreview":"产品已经形成可运行、可验证的闭环","textChars":16,"textLines":1,"bbox":[78,222,610,48]}
+{"kind":"textbox","id":"sh/tcn6947m","slide":8,"name":"s8-point-title-0","text":"刷新续玩","textPreview":"刷新续玩","textChars":4,"textLines":1,"bbox":[78,310,145,34]}
+{"kind":"textbox","id":"sh/pszy1kjq","slide":8,"name":"s8-point-desc-0","text":"当前对局、待处理弹窗和选择日志均可恢复","textPreview":"当前对局、待处理弹窗和选择日志均可恢复","textChars":19,"textLines":1,"bbox":[236,310,480,46]}
+{"kind":"shape","id":"sh/orqxsfi5","slide":8,"name":"s8-sep-0","bbox":[78,366,620,1]}
+{"kind":"textbox","id":"sh/nqhgza1k","slide":8,"name":"s8-point-title-1","text":"规则回归","textPreview":"规则回归","textChars":4,"textLines":1,"bbox":[78,388,145,34]}
+{"kind":"textbox","id":"sh/2p8fq50z","slide":8,"name":"s8-point-desc-1","text":"核心数值、标签、免疫与结算规则由自动测试覆盖","textPreview":"核心数值、标签、免疫与结算规则由自动测试覆盖","textChars":22,"textLines":1,"bbox":[236,388,480,46]}
+{"kind":"shape","id":"sh/14zex0je","slide":8,"name":"s8-sep-1","bbox":[78,444,620,1]}
+{"kind":"textbox","id":"sh/03qxofi9","slide":8,"name":"s8-point-title-2","text":"数值模拟","textPreview":"数值模拟","textChars":4,"textLines":1,"bbox":[78,466,145,34]}
+{"kind":"textbox","id":"sh/f2hwva1o","slide":8,"name":"s8-point-desc-2","text":"Monte Carlo 可批量运行 100,000 局观察分布","textPreview":"Monte Carlo 可批量运行 100,000 局观察分布","textChars":31,"textLines":1,"bbox":[236,466,480,46]}
+{"kind":"shape","id":"sh/e1ofm503","slide":8,"name":"s8-sep-2","bbox":[78,522,620,1]}
+{"kind":"textbox","id":"sh/l0jy94zy","slide":8,"name":"s8-point-title-3","text":"榜单反馈","textPreview":"榜单反馈","textChars":4,"textLines":1,"bbox":[78,544,145,34]}
+{"kind":"textbox","id":"sh/kzax0zid","slide":8,"name":"s8-point-desc-3","text":"本地历史保留个人最佳局，并展示利润与 SCA","textPreview":"本地历史保留个人最佳局，并展示利润与 SCA","textChars":22,"textLines":1,"bbox":[236,544,480,46]}
+{"kind":"shape","id":"sh/k3ihw3qp","slide":8,"name":"ranking-shadow","bbox":[828,200,350,470]}
+{"kind":"image","id":"im/e5k7m18r","slide":8,"name":"","geometry":"roundRect","alt":"南涧咖啡庄园排行榜界面","bbox":[820,190,350,470]}
+{"kind":"notes","id":"nt/o49m6f","slide":8,"text":"除玩法闭环外，庄园端还提供刷新续玩、自动测试与数值模拟，使演示版本具备继续迭代的工程基础。\n\n[Sources]\n- PPT图片/ranking.png\n- README.md\n- tests/game.test.js\n- scripts/simulation.js"}
+{"kind":"slide","id":"sl/geqgyp","slide":9,"title":"PROJECT SYNTHESIS","textShapes":12}
+{"kind":"shape","id":"sh/e5gr6l0r","slide":9,"name":"final-paper-overlay","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/z698fq1c","slide":9,"name":"s9-kicker","text":"PROJECT SYNTHESIS","textPreview":"PROJECT SYNTHESIS","textChars":17,"textLines":1,"bbox":[78,62,360,28]}
+{"kind":"textbox","id":"sh/8bi9cvi9","slide":9,"name":"s9-title","text":"我们交付的不是两套页面，\n而是一条完整的咖啡认知路径","textPreview":"我们交付的不是两套页面， | 而是一条完整的咖啡认知路径","textChars":26,"textLines":2,"bbox":[78,116,960,128]}
+{"kind":"shape","id":"sh/9crql0ze","slide":9,"name":"s9-rule","bbox":[80,275,110,5]}
+{"kind":"textbox","id":"sh/m90ral03","slide":9,"name":"s9-verb-0","text":"认识自己","textPreview":"认识自己","textChars":4,"textLines":1,"bbox":[82,326,240,52]}
+{"kind":"textbox","id":"sh/na98jqho","slide":9,"name":"s9-arrow-0","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[300,328,70,44]}
+{"kind":"textbox","id":"sh/wf29gvi5","slide":9,"name":"s9-verb-1","text":"理解产区","textPreview":"理解产区","textChars":4,"textLines":1,"bbox":[368,326,240,52]}
+{"kind":"textbox","id":"sh/x0bqp0zq","slide":9,"name":"s9-arrow-1","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[586,328,70,44]}
+{"kind":"textbox","id":"sh/lszq9gfa","slide":9,"name":"s9-verb-2","text":"承担决策","textPreview":"承担决策","textChars":4,"textLines":1,"bbox":[654,326,240,52]}
+{"kind":"textbox","id":"sh/krqpgbep","slide":9,"name":"s9-arrow-2","text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[872,328,70,44]}
+{"kind":"textbox","id":"sh/zqh876xk","slide":9,"name":"s9-verb-3","text":"看见结果","textPreview":"看见结果","textChars":4,"textLines":1,"bbox":[940,326,240,52]}
+{"kind":"textbox","id":"sh/yp87e1wz","slide":9,"name":"s9-next-title","text":"下一步，让两段体验真正连起来","textPreview":"下一步，让两段体验真正连起来","textChars":14,"textLines":1,"bbox":[82,445,500,40]}
+{"kind":"textbox","id":"sh/9gjqdgfm","slide":9,"name":"s9-next","text":"KFTI 结果联动庄园首轮路线推荐　·　统一身份与可分享结果报告　·　完成服务端权威复算与公开榜单","textPreview":"KFTI 结果联动庄园首轮路线推荐　·　统一身份与可分享结果报告　·　完成服务端权威复算与公开榜单","textChars":49,"textLines":1,"bbox":[82,510,1080,74]}
+{"kind":"textbox","id":"sh/8fapkbe1","slide":9,"name":"s9-close","text":"让每一次喝咖啡，都成为理解风味与土地的开始。","textPreview":"让每一次喝咖啡，都成为理解风味与土地的开始。","textChars":22,"textLines":1,"bbox":[82,625,930,38]}
+{"kind":"image","id":"im/onid4zad","slide":9,"name":"","alt":"咖啡处理阶段山地场景","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/geqgyp","slide":9,"text":"收束时回到开场：KFTI帮助用户找到自己的入口，庄园让用户理解一杯咖啡背后的土地与经营。下一步重点是把两段体验通过推荐、身份与分享机制连成完整产品。\n\n[Sources]\n- frontend/assets/images/stages/mainpage_phase5_middle_picture.png\n- README.md\n- PPT图片目录内全部用户提供截图"}

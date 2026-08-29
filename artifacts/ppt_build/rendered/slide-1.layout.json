@@ -1,0 +1,470 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/uyk56y",
+    "id": "uyk56y",
+    "slide": 1,
+    "layoutId": "403c4e9b-bcb1-409f-9cec-6f7022060757",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F0E4",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "403c4e9b-bcb1-409f-9cec-6f7022060757",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qh43ep8",
+      "id": "1",
+      "name": "cover-rail",
+      "bbox": [
+        0,
+        0,
+        24,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#6E3F27",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4rqlwjqt",
+      "id": "2",
+      "name": "cover-kicker",
+      "bbox": [
+        86,
+        100,
+        540,
+        34
+      ],
+      "geometry": "rect",
+      "text": "INTERACTIVE COFFEE EXPERIENCE",
+      "textPreview": "INTERACTIVE COFFEE EXPERIENCE",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Microsoft YaHei",
+        "color": "#9A6545",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INTERACTIVE COFFEE EXPERIENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INTERACTIVE COFFEE EXPERIENCE",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A6545",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INTERACTIVE COFFEE EXPERIENCE",
+              "fontSize": 18,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A6545",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pszm5o7e",
+      "id": "3",
+      "name": "cover-title",
+      "bbox": [
+        82,
+        185,
+        640,
+        178
+      ],
+      "geometry": "rect",
+      "text": "KFTI ×\n南涧咖啡庄园",
+      "textPreview": "KFTI × | 南涧咖啡庄园",
+      "resolvedFontSize": 68,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 68,
+        "typeface": "Microsoft YaHei",
+        "color": "#302218",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KFTI ×"
+          },
+          {
+            "index": 2,
+            "text": "南涧咖啡庄园"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KFTI ×",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 68,
+            "typeface": "Microsoft YaHei",
+            "color": "#302218",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KFTI ×",
+              "fontSize": 68,
+              "typeface": "Microsoft YaHei",
+              "color": "#302218",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "南涧咖啡庄园",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 68,
+            "typeface": "Microsoft YaHei",
+            "color": "#302218",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "南涧咖啡庄园",
+              "fontSize": 68,
+              "typeface": "Microsoft YaHei",
+              "color": "#302218",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qt83y98z",
+      "id": "4",
+      "name": "cover-subtitle",
+      "bbox": [
+        86,
+        390,
+        610,
+        76
+      ],
+      "geometry": "rect",
+      "text": "从认识自己的咖啡偏好，到经营一座山地庄园",
+      "textPreview": "从认识自己的咖啡偏好，到经营一座山地庄园",
+      "resolvedFontSize": 30.59,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Microsoft YaHei",
+        "color": "#6E3F27",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "从认识自己的咖啡偏好，到经营一座山地庄"
+          },
+          {
+            "index": 2,
+            "text": "园"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "从认识自己的咖啡偏好，到经营一座山地庄园",
+          "lineSpacingPercent": 120000,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Microsoft YaHei",
+            "color": "#6E3F27",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.2
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "从认识自己的咖啡偏好，到经营一座山地庄园",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#6E3F27",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.2
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ru14repk",
+      "id": "5",
+      "name": "cover-rule",
+      "bbox": [
+        86,
+        500,
+        118,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#9A6545",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cval0jqp",
+      "id": "6",
+      "name": "cover-meta",
+      "bbox": [
+        86,
+        535,
+        600,
+        36
+      ],
+      "geometry": "rect",
+      "text": "项目汇报 · 互动测试 × 经营模拟",
+      "textPreview": "项目汇报 · 互动测试 × 经营模拟",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项目汇报 · 互动测试 × 经营模拟"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目汇报 · 互动测试 × 经营模拟",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目汇报 · 互动测试 × 经营模拟",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwjmto7a",
+      "id": "7",
+      "name": "cover-landscape-shadow",
+      "bbox": [
+        798,
+        80,
+        410,
+        580
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(58, 36, 24, 0.14)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/n6h4zmp0",
+      "id": "8",
+      "bbox": [
+        790,
+        70,
+        410,
+        580
+      ],
+      "geometry": "roundRect",
+      "alt": "无量山咖啡庄园山地场景",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 6341"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "21c1b565-f3ee-4769-ab23-942667695451",
+        "contentType": "image/png",
+        "byteLength": 2589779
+      }
+    }
+  ],
+  "composeRuns": []
+}

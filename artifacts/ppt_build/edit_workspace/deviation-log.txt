@@ -1,0 +1,4 @@
+Slide 1: Homepage screenshots removed from the cover at user request. Replaced with a single non-UI mountain coffee landscape while preserving typography, colors, and title hierarchy.
+Slide 2: New slide inserted to show the two game homepages side by side. Uses the established header, footer, screenshot framing, palette, and type scale.
+Slides 3–9: Content preserved; page markers shifted by one.
+Slide 10: Preserved unchanged.

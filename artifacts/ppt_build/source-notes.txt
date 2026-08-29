@@ -1,0 +1,41 @@
+Deck: KFTI × 南涧咖啡庄园项目汇报
+Source policy: all visual assets and claims come from user-provided local files; no external research used.
+
+Slide 1
+- frontend/assets/images/stages/mainpage_phase1_middle_picture.png
+
+Slide 2
+- PPT图片/KFTI_page.png
+- PPT图片/page.png
+
+Slide 3
+- README.md
+
+Slide 4
+- PPT图片/KFTI_choice.png
+- PPT图片/KFTI_result_2.png (for the visible M/R/X/A dimension labels and descriptions)
+
+Slide 5
+- PPT图片/KFTI_result_1.png
+- PPT图片/KFTI_result_2.png
+- PPT图片/KFTI_result_3.png
+
+Slide 6
+- PPT图片/choice.png
+- README.md (five-stage loop and five core resources)
+
+Slide 7
+- PPT图片/accident.png
+- README.md; frontend/js/game/events.js (event design and decision branches)
+
+Slide 8
+- PPT图片/summary.png
+- PPT图片/trading_card.png
+- README.md; frontend/js/game/settlement.js (settlement chain)
+
+Slide 9
+- PPT图片/ranking.png
+- README.md; tests/game.test.js; scripts/simulation.js (local leaderboard, regression tests, Monte Carlo simulation)
+
+Slide 10
+- README.md and the complete set of project screenshots (product synthesis and next-step recommendations)

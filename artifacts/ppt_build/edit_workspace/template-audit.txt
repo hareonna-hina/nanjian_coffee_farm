@@ -1,0 +1,7 @@
+Source deck: KFTI_咖啡庄园项目汇报.pptx
+Slides inspected: 9/9 through full-size PNG renders and artifact-tool inspect records.
+Visual system: 1280×720, warm parchment background, coffee brown headings, mountain green accents, Microsoft YaHei typography, thin footer rule and page number.
+Reusable patterns: minimal cover; title/subtitle/footer content pages; screenshot-led evidence pages; image-backed synthesis closing.
+Inherited placeholders: none detected in artifact-tool inspect output. All content is slide-local and named.
+Requested insertion: replace the split-homepage cover with a clean cover and insert one dedicated two-homepage slide before the existing project-positioning slide.
+Environment note: bundled inspect_template_deck.mjs could not run because its unzip -Z1 subprocess is unsupported in this Windows environment; equivalent source renders and inspect NDJSON were reviewed instead.

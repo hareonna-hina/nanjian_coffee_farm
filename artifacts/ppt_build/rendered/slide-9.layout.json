@@ -1,0 +1,1205 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pefhd3",
+    "id": "pefhd3",
+    "slide": 9,
+    "layoutId": "403c4e9b-bcb1-409f-9cec-6f7022060757",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F0E4",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "403c4e9b-bcb1-409f-9cec-6f7022060757",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a07d7bd3-8e0d-4455-8d7c-ea2db05633e5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i1cva943",
+      "id": "1",
+      "name": "eyebrow-9",
+      "bbox": [
+        72,
+        42,
+        430,
+        24
+      ],
+      "geometry": "rect",
+      "text": "07 / 可复玩与验证",
+      "textPreview": "07 / 可复玩与验证",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Microsoft YaHei",
+        "color": "#9A6545",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07 / 可复玩与验证"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07 / 可复玩与验证",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A6545",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07 / 可复玩与验证",
+              "fontSize": 16,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A6545",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p43elone",
+      "id": "2",
+      "name": "title-9",
+      "bbox": [
+        72,
+        72,
+        1136,
+        70
+      ],
+      "geometry": "rect",
+      "text": "榜单把单局结果变成可比较、可复盘的反馈",
+      "textPreview": "榜单把单局结果变成可比较、可复盘的反馈",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Microsoft YaHei",
+        "color": "#302218",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "榜单把单局结果变成可比较、可复盘的反馈"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "榜单把单局结果变成可比较、可复盘的反馈",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Microsoft YaHei",
+            "color": "#302218",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "榜单把单局结果变成可比较、可复盘的反馈",
+              "fontSize": 48,
+              "typeface": "Microsoft YaHei",
+              "color": "#302218",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43udcjmt",
+      "id": "3",
+      "name": "subtitle-9",
+      "bbox": [
+        72,
+        145,
+        1030,
+        34
+      ],
+      "geometry": "rect",
+      "text": "每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。 ",
+      "textPreview": "每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。 ",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "每位庄园主只保留净利润最高的一局，鼓励玩家重走路线并理解差异。 ",
+              "fontSize": 22,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy1cfe5c",
+      "id": "4",
+      "name": "accent-9",
+      "bbox": [
+        72,
+        183,
+        90,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#9A6545",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxsv694r",
+      "id": "5",
+      "name": "footer-line-9",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9C8B0",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h03eh4ni",
+      "id": "6",
+      "name": "footer-label-9",
+      "bbox": [
+        72,
+        684,
+        300,
+        20
+      ],
+      "geometry": "rect",
+      "text": "KFTI × 南涧咖啡庄园",
+      "textPreview": "KFTI × 南涧咖啡庄园",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KFTI × 南涧咖啡庄园"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KFTI × 南涧咖啡庄园",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KFTI × 南涧咖啡庄园",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzud8zmx",
+      "id": "7",
+      "name": "footer-page-9",
+      "bbox": [
+        1150,
+        684,
+        58,
+        20
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "bold": true,
+            "alignment": "right",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 14,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "bold": true,
+              "alignment": "right",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zu5wry5g",
+      "id": "8",
+      "name": "s8-claim",
+      "bbox": [
+        78,
+        222,
+        610,
+        48
+      ],
+      "geometry": "rect",
+      "text": "产品已经形成可运行、可验证的闭环",
+      "textPreview": "产品已经形成可运行、可验证的闭环",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Microsoft YaHei",
+        "color": "#302218",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "产品已经形成可运行、可验证的闭环"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "产品已经形成可运行、可验证的闭环",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Microsoft YaHei",
+            "color": "#302218",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "产品已经形成可运行、可验证的闭环",
+              "fontSize": 32,
+              "typeface": "Microsoft YaHei",
+              "color": "#302218",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/etwvit4b",
+      "id": "9",
+      "name": "s8-point-title-0",
+      "bbox": [
+        78,
+        310,
+        145,
+        34
+      ],
+      "geometry": "rect",
+      "text": "刷新续玩",
+      "textPreview": "刷新续玩",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#9A6545",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "刷新续玩"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "刷新续玩",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A6545",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "刷新续玩",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A6545",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onmdsv2l",
+      "id": "10",
+      "name": "s8-point-desc-0",
+      "bbox": [
+        236,
+        310,
+        480,
+        46
+      ],
+      "geometry": "rect",
+      "text": "当前对局、待处理弹窗和选择日志均可恢复",
+      "textPreview": "当前对局、待处理弹窗和选择日志均可恢复",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前对局、待处理弹窗和选择日志均可恢复"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前对局、待处理弹窗和选择日志均可恢复",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前对局、待处理弹窗和选择日志均可恢复",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9ofel0j6",
+      "id": "11",
+      "name": "s8-sep-0",
+      "bbox": [
+        78,
+        366,
+        620,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9C8B0",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ml4vqlkf",
+      "id": "12",
+      "name": "s8-point-title-1",
+      "bbox": [
+        78,
+        388,
+        145,
+        34
+      ],
+      "geometry": "rect",
+      "text": "规则回归",
+      "textPreview": "规则回归",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#9A6545",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "规则回归"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "规则回归",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#9A6545",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "规则回归",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#9A6545",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nmdwjq10",
+      "id": "13",
+      "name": "s8-point-desc-1",
+      "bbox": [
+        236,
+        388,
+        480,
+        46
+      ],
+      "geometry": "rect",
+      "text": "核心数值、标签、免疫与结算规则由自动测试覆盖",
+      "textPreview": "核心数值、标签、免疫与结算规则由自动测试覆盖",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "核心数值、标签、免疫与结算规则由自动测试覆盖"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "核心数值、标签、免疫与结算规则由自动测试覆盖",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "核心数值、标签、免疫与结算规则由自动测试覆盖",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0jmdob29",
+      "id": "14",
+      "name": "s8-sep-1",
+      "bbox": [
+        78,
+        444,
+        620,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9C8B0",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kvehgju",
+      "id": "15",
+      "name": "s8-point-title-2",
+      "bbox": [
+        78,
+        466,
+        145,
+        34
+      ],
+      "geometry": "rect",
+      "text": "数值模拟",
+      "textPreview": "数值模拟",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#5D743E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "数值模拟"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "数值模拟",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#5D743E",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "数值模拟",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#5D743E",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eh4vmlk3",
+      "id": "16",
+      "name": "s8-point-desc-2",
+      "bbox": [
+        236,
+        466,
+        480,
+        46
+      ],
+      "geometry": "rect",
+      "text": "Monte Carlo 可批量运行 100,000 局观察分布",
+      "textPreview": "Monte Carlo 可批量运行 100,000 局观察分布",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Monte Carlo 可批量运行 100,000 局观察分布"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Monte Carlo 可批量运行 100,000 局观察分布",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Monte Carlo 可批量运行 100,000 局观察分布",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fidwfq1o",
+      "id": "17",
+      "name": "s8-sep-2",
+      "bbox": [
+        78,
+        522,
+        620,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9C8B0",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sv2dkb2d",
+      "id": "18",
+      "name": "s8-point-title-3",
+      "bbox": [
+        78,
+        544,
+        145,
+        34
+      ],
+      "geometry": "rect",
+      "text": "榜单反馈",
+      "textPreview": "榜单反馈",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Microsoft YaHei",
+        "color": "#5D743E",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "榜单反馈"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "榜单反馈",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Microsoft YaHei",
+            "color": "#5D743E",
+            "bold": true,
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "榜单反馈",
+              "fontSize": 23,
+              "typeface": "Microsoft YaHei",
+              "color": "#5D743E",
+              "bold": true,
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dwbudg3y",
+      "id": "19",
+      "name": "s8-point-desc-3",
+      "bbox": [
+        236,
+        544,
+        480,
+        46
+      ],
+      "geometry": "rect",
+      "text": "本地历史保留个人最佳局，并展示利润与 SCA",
+      "textPreview": "本地历史保留个人最佳局，并展示利润与 SCA",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Microsoft YaHei",
+        "color": "#75675B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本地历史保留个人最佳局，并展示利润与 SCA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本地历史保留个人最佳局，并展示利润与 SCA",
+          "lineSpacingPercent": 115000,
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Microsoft YaHei",
+            "color": "#75675B",
+            "alignment": "left",
+            "lineSpacing": 1.15
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本地历史保留个人最佳局，并展示利润与 SCA",
+              "fontSize": 20,
+              "typeface": "Microsoft YaHei",
+              "color": "#75675B",
+              "alignment": "left",
+              "lineSpacing": 1.15
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t03218ra",
+      "id": "20",
+      "name": "ranking-shadow",
+      "bbox": [
+        828,
+        200,
+        350,
+        470
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(58, 36, 24, 0.14)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ni9o3a14",
+      "id": "21",
+      "bbox": [
+        820,
+        190,
+        350,
+        470
+      ],
+      "geometry": "roundRect",
+      "alt": "南涧咖啡庄园排行榜界面",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5714"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "db8ba72d-6ff3-4e5e-b62b-2ed7948ef7e5",
+        "contentType": "image/png",
+        "byteLength": 661081
+      }
+    }
+  ],
+  "composeRuns": []
+}

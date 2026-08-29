@@ -1,0 +1,15 @@
+{
+  "outputSlides": [
+    {"outputSlide": 1, "sourceSlide": 1, "narrativeRole": "clean opening cover", "reuseMode": "duplicate-slide", "editTargets": ["replace split homepage imagery with a mountain landscape and paper layout"]},
+    {"outputSlide": 2, "sourceSlide": 4, "narrativeRole": "dedicated homepage showcase", "reuseMode": "duplicate-slide", "editTargets": ["replace screenshot frames with KFTI and estate homepages", "rewrite title and labels"]},
+    {"outputSlide": 3, "sourceSlide": 2, "narrativeRole": "project positioning", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 4, "sourceSlide": 3, "narrativeRole": "KFTI mechanism", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 5, "sourceSlide": 4, "narrativeRole": "KFTI outputs", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 6, "sourceSlide": 5, "narrativeRole": "estate loop", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 7, "sourceSlide": 6, "narrativeRole": "risk system", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 8, "sourceSlide": 7, "narrativeRole": "settlement chain", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 9, "sourceSlide": 8, "narrativeRole": "replay and validation", "reuseMode": "duplicate-slide", "editTargets": ["update page number"]},
+    {"outputSlide": 10, "sourceSlide": 9, "narrativeRole": "closing synthesis", "reuseMode": "duplicate-slide", "editTargets": []}
+  ],
+  "omittedSourceSlides": []
+}
